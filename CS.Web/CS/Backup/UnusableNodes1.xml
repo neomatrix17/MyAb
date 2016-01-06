@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Adresse_ListView">
+      <Variants Id="Variants">
+        <Variant Id="Test" Caption="Test" ViewID="Adrese View" />
+      </Variants>
+    </ListView>
+  </Views>
+</Application>

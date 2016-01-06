@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E9AED738-5288-4E61-A29F-786425877AC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AdressenManagement.Module.Web</RootNamespace>
+    <AssemblyName>AdressenManagement.Module.Web</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AdressenManagement.Module.Web.xml</DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AdressenManagement.Module.Web.xml</DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DocumentationFile>AdressenManagement.Module.Web.xml</DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DefineConstants>EASYTEST</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>..\..\packages\Common.Logging.2.0.0\lib\2.0\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GithubNugetDistributor">
+      <HintPath>..\..\packages\github-nuget-distributor.GithubNugetDistributor.1.0.21\lib\net45\GithubNugetDistributor.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="mscorlib" />
+    <Reference Include="E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\bin\Debug\AdressenManagement.Module.dll" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Octokit">
+      <HintPath>..\..\packages\Octokit.0.4.1\lib\net45\Octokit.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Rest">
+      <HintPath>..\..\packages\Spring.Rest.1.1.1\lib\net40-client\Spring.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Social.Core">
+      <HintPath>..\..\packages\Spring.Social.Core.1.0.1\lib\net40-client\Spring.Social.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="DevExpress.ExpressApp.ReportsV2.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.ReportsV2.Web.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Scheduler.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Scheduler.Web.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Security.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.TreeListEditors.Web.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Xpo.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Images.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Web.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Office.v15.2.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v15.2.Core">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.2.Wizard, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2.UI, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2.Reporting, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v15.2.Reporting.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Gurock.SmartInspect">
+      <HintPath>C:\Program Files (x86)\Gurock Software\SmartInspect Professional\lib\dotnet\v2.x\Gurock.SmartInspect.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EmbededReports\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AdresseColorViewControler.Designer.cs">
+      <DependentUpon>AdresseColorViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseColorViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdresseEmptyTabViewControler.Designer.cs">
+      <DependentUpon>AdresseEmptyTabViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseEmptyTabViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdresseHeaderDetailViewControler.Designer.cs">
+      <DependentUpon>AdresseHeaderDetailViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseHeaderDetailViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdresseHideOldHistoryViewControler.Designer.cs">
+      <DependentUpon>AdresseHideOldHistoryViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseHideOldHistoryViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\BerichtProduktViewControler.Designer.cs">
+      <DependentUpon>BerichtProduktViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\BerichtProduktViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\DateiDisableEnfAdd.Designer.cs">
+      <DependentUpon>DateiDisableEnfAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\DateiDisableEnfAdd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\DisableExportViewControler.Designer.cs">
+      <DependentUpon>DisableExportViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\DisableExportViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\DisableSupportEditViewControler.Designer.cs">
+      <DependentUpon>DisableSupportEditViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\DisableSupportEditViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\DoppelteTelefonNummerControler.Designer.cs">
+      <DependentUpon>DoppelteTelefonNummerControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\DoppelteTelefonNummerControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\EmpfehlungHinzufügen.Designer.cs">
+      <DependentUpon>EmpfehlungHinzufügen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\EmpfehlungHinzufügen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\ExportAppointmentsControler.Designer.cs">
+      <DependentUpon>ExportAppointmentsControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ExportAppointmentsControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\ExportAppointmentsWeekControler.Designer.cs">
+      <DependentUpon>ExportAppointmentsWeekControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ExportAppointmentsWeekControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\FalscheNummerControler.Designer.cs">
+      <DependentUpon>FalscheNummerControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FalscheNummerControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\GeqaehltKeinKontaktControler.Designer.cs">
+      <DependentUpon>GeqaehltKeinKontaktControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\GeqaehltKeinKontaktControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\HideCalenderViewControler.Designer.cs">
+      <DependentUpon>HideCalenderViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\HideCalenderViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\KontaktiertControler.Designer.cs">
+      <DependentUpon>KontaktiertControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\KontaktiertControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\ListViewTotalAdresse.Designer.cs">
+      <DependentUpon>ListViewTotalAdresse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ListViewTotalAdresse.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\MyAppointmentsTextSearchControler.Designer.cs">
+      <DependentUpon>MyAppointmentsTextSearchControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\MyAppointmentsTextSearchControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\MyTextSearchControler.Designer.cs">
+      <DependentUpon>MyTextSearchControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\MyTextSearchControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\MyWebDetailViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\NeuerTerminWindowControler.Designer.cs">
+      <DependentUpon>NeuerTerminWindowControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\NeuerTerminWindowControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\NichtKontaktiertKontroler.Designer.cs">
+      <DependentUpon>NichtKontaktiertKontroler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\NichtKontaktiertKontroler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\SchedulerController.Designer.cs">
+      <DependentUpon>SchedulerController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\SchedulerController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\StatusNeuControler.Designer.cs">
+      <DependentUpon>StatusNeuControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\StatusNeuControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\TerminBerichtÖffnen.Designer.cs">
+      <DependentUpon>TerminBerichtÖffnen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TerminBerichtÖffnen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\TerminWichtigInformationControler.Designer.cs">
+      <DependentUpon>TerminWichtigInformationControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TerminWichtigInformationControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\TerminÖffnenControler.Designer.cs">
+      <DependentUpon>TerminÖffnenControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TerminÖffnenControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\TestControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\WebCustomizeTabControlViewController.Designer.cs">
+      <DependentUpon>WebCustomizeTabControlViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\WebCustomizeTabControlViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Editors\CustomDateTimeEditor.cs" />
+    <Compile Include="Editors\HyperLinkPropertyEditor.cs" />
+    <Compile Include="Editors\WebCheckedListBoxPropertyEditor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Application.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WebModule.Designer.cs">
+      <DependentUpon>WebModule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebModule.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controllers\AdresseEmptyTabViewControler.resx">
+      <DependentUpon>AdresseEmptyTabViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\AdresseHeaderDetailViewControler.resx">
+      <DependentUpon>AdresseHeaderDetailViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\AdresseHideOldHistoryViewControler.resx">
+      <DependentUpon>AdresseHideOldHistoryViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\BerichtProduktViewControler.resx">
+      <DependentUpon>BerichtProduktViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\DateiDisableEnfAdd.resx">
+      <DependentUpon>DateiDisableEnfAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\DisableSupportEditViewControler.resx">
+      <DependentUpon>DisableSupportEditViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\DoppelteTelefonNummerControler.resx">
+      <DependentUpon>DoppelteTelefonNummerControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\EmpfehlungHinzufügen.resx">
+      <DependentUpon>EmpfehlungHinzufügen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\ExportAppointmentsControler.resx">
+      <DependentUpon>ExportAppointmentsControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\ExportAppointmentsWeekControler.resx">
+      <DependentUpon>ExportAppointmentsWeekControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\FalscheNummerControler.resx">
+      <DependentUpon>FalscheNummerControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\GeqaehltKeinKontaktControler.resx">
+      <DependentUpon>GeqaehltKeinKontaktControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\HideCalenderViewControler.resx">
+      <DependentUpon>HideCalenderViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\KontaktiertControler.resx">
+      <DependentUpon>KontaktiertControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\ListViewTotalAdresse.resx">
+      <DependentUpon>ListViewTotalAdresse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\MyTextSearchControler.resx">
+      <DependentUpon>MyTextSearchControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\NeuerTerminWindowControler.resx">
+      <DependentUpon>NeuerTerminWindowControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\NichtKontaktiertKontroler.resx">
+      <DependentUpon>NichtKontaktiertKontroler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\SchedulerController.resx">
+      <DependentUpon>SchedulerController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\StatusNeuControler.resx">
+      <DependentUpon>StatusNeuControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\TerminBerichtÖffnen.resx">
+      <DependentUpon>TerminBerichtÖffnen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\TerminWichtigInformationControler.resx">
+      <DependentUpon>TerminWichtigInformationControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\TerminÖffnenControler.resx">
+      <DependentUpon>TerminÖffnenControler.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\TestControler.resx">
+      <DependentUpon>TestControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.Localization.hr.xafml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="mscorlib" />
+    <Reference Include="E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\bin\Debug\AdressenManagement.Module.dll" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\Downloads\CS.Module\CS\AdressenManagement.Module.csproj">
+      <Project>{f622ea3c-2609-4bb3-b589-6b1f2cfbb035}</Project>
+      <Name>AdressenManagement.Module</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnusableNodes.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnusableNodes1.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnusableNodes2.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnusableNodes3.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnusableNodes4.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnusableNodes5.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+</Project>

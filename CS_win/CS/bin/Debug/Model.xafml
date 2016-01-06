@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="Workflow" Removed="True" />
+    </Items>
+  </NavigationItems>
+  <Options Skin="Visual Studio 2013 Blue" UIType="TabbedMDI" FormStyle="Ribbon" RestoreTabbedMdiLayout="False">
+    <RibbonOptions RibbonControlStyle="Office2013" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerWindowsFormsModule" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="14.2.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Adresse_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="40.93333333333333">
+            <LayoutGroup Id="Adresse">
+              <LayoutGroup Id="Adresse_col1" RelativeSize="51.92307692307692">
+                <TabbedGroup Id="Item5">
+                  <LayoutGroup Id="Item4">
+                    <LayoutGroup Id="Auto13b88094-f997-4ae8-9c1b-3a3f0b532dcc">
+                      <LayoutItem Id="Firma" RelativeSize="49.859943977591037" />
+                      <LayoutItem Id="AnsprechPartner" RelativeSize="50.140056022408963" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item6">
+                    <LayoutGroup Id="Autoc4c77fa9-161d-4dc2-a15d-6681e0e5bd67">
+                      <LayoutItem Id="Firma2" RelativeSize="49.859943977591037" />
+                      <LayoutItem Id="AnsprechPartner2" RelativeSize="50.140056022408963" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item2">
+                    <LayoutGroup Id="Autoe8c65f1e-9066-4fb1-803c-255ddaf75dc0">
+                      <LayoutItem Id="Firma3" RelativeSize="49.859943977591037" />
+                      <LayoutItem Id="AnsprechPartner3" RelativeSize="50.140056022408963" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Adresse_col2" RelativeSize="48.07692307692308">
+                <LayoutItem Id="Item3" RelativeSize="29.850746268656717" />
+                <LayoutGroup Id="Auto8940a99d-3ceb-4eef-b77f-59bb6406d194" Caption="Auto8940a99d-3ceb-4eef-b77f-59bb6406d194(47)" RelativeSize="13.432835820895523">
+                  <LayoutItem Id="Gesprächspartner" RelativeSize="48.857142857142854" />
+                  <LayoutItem Id="Gesprächsergebnis" RelativeSize="51.142857142857146" />
+                </LayoutGroup>
+                <LayoutItem Id="KontaktierenAb" Index="6" />
+                <LayoutItem Id="Gesprächsnotiz" Index="7" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="59.06666666666667" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Adresse_ListView_Chart" EditorTypeName="DevExpress.ExpressApp.Chart.Win.ChartListEditor" Removed="True">
+      <ChartSettings Settings="﻿&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#xD;&#xA;&lt;ChartXmlSerializer version=&quot;14.2.3.0&quot;&gt;&#xD;&#xA;  &lt;Chart AppearanceNameSerializable=&quot;Default&quot; SelectionMode=&quot;None&quot; SeriesSelectionMode=&quot;Series&quot;&gt;&#xD;&#xA;    &lt;Diagram TypeNameSerializable=&quot;XYDiagram&quot;&gt;&#xD;&#xA;      &lt;AxisX VisibleInPanesSerializable=&quot;-1&quot; /&gt;&#xD;&#xA;      &lt;AxisY VisibleInPanesSerializable=&quot;-1&quot; /&gt;&#xD;&#xA;    &lt;/Diagram&gt;&#xD;&#xA;    &lt;DataContainer RefreshDataOnRepaint=&quot;true&quot; BoundSeriesSorting=&quot;None&quot; DataMember=&quot;&quot;&gt;&#xD;&#xA;      &lt;SeriesTemplate&gt;&#xD;&#xA;        &lt;View TypeNameSerializable=&quot;StackedBarSeriesView&quot; /&gt;&#xD;&#xA;      &lt;/SeriesTemplate&gt;&#xD;&#xA;      &lt;SeriesSerializable&gt;&#xD;&#xA;        &lt;Item1 Name=&quot;Series 1&quot; ArgumentDataMember=&quot;Status.Name&quot; SummaryFunction=&quot;COUNT()&quot; ArgumentScaleType=&quot;Qualitative&quot;&gt;&#xD;&#xA;          &lt;View TypeNameSerializable=&quot;StackedBarSeriesView&quot; /&gt;&#xD;&#xA;        &lt;/Item1&gt;&#xD;&#xA;        &lt;Item2 Name=&quot;Series 2&quot; ArgumentDataMember=&quot;Termine.Oid&quot; ArgumentScaleType=&quot;Qualitative&quot;&gt;&#xD;&#xA;          &lt;View TypeNameSerializable=&quot;StackedBarSeriesView&quot; /&gt;&#xD;&#xA;        &lt;/Item2&gt;&#xD;&#xA;      &lt;/SeriesSerializable&gt;&#xD;&#xA;    &lt;/DataContainer&gt;&#xD;&#xA;  &lt;/Chart&gt;&#xD;&#xA;&lt;/ChartXmlSerializer&gt;" />
+    </ListView>
+    <ListView Id="Adresse_Termine_ListView" SchedulerViewType="Month" />
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView" Caption="Benutzer Anmeldung">
+      <Items>
+        <StaticImage Id="LogonImage" ImageName="Login1.png" />
+        <StaticText Id="LogonText" Text="Willkommen! Bitte melden SIe sich am System an." />
+        <PropertyEditor Id="Password" Caption="Passwort" />
+        <PropertyEditor Id="UserName" Caption="Benutzername" />
+      </Items>
+    </DetailView>
+    <ListView Id="Mitarbeiter_Termine_ListView" SchedulerViewType="Month" />
+  </Views>
+</Application>

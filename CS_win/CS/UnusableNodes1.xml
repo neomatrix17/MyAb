@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Adresse_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Adresse">
+              <LayoutGroup Id="Adresse_col2">
+                <LayoutGroup Id="Autodc16974c-ed0f-454b-a7b8-1e6649f88a6f" Caption="Autodc16974c-ed0f-454b-a7b8-1e6649f88a6f(50)" Direction="Vertical" Index="6" RelativeSize="0.373134328358209" Removed="True">
+                  <LayoutItem Id="Gesprächsergebnis" Index="0" RelativeSize="100" />
+                  <LayoutItem Id="Gesprächspartner" Removed="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

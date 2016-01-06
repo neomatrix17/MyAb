@@ -1,0 +1,170 @@
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.csprojResolveAssemblyReference.cache
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseEmptyTabViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseHeaderDetailViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseHideOldHistoryViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.BerichtProduktViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DateiDisableEnfAdd.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DisableSupportEditViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DoppelteTelefonNummerControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.EmpfehlungHinzufügen.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ExportAppointmentsControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ExportAppointmentsWeekControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.FalscheNummerControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.GeqaehltKeinKontaktControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.HideCalenderViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.KontaktiertControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ListViewTotalAdresse.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.MyTextSearchControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.NeuerTerminWindowControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.NichtKontaktiertKontroler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.SchedulerController.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.StatusNeuControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminBerichtÖffnen.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminWichtigInformationControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminÖffnenControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.Controllers.TestControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.Properties.Resources.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.csproj.GenerateResource.Cache
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.dll.licenses
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.dll
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.pdb
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.xml
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\hr\AdressenManagement.Module.Web.resources.dll
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\AdressenManagement.Module.dll
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\AdressenManagement.Module.pdb
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\AdressenManagement.Module.xml
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\Gurock.SmartInspect.xml
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\bin\Debug\hr\AdressenManagement.Module.resources.dll
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\hr\AdressenManagement.Module.Web.resources.dll
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.dll
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.pdb
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.csprojResolveAssemblyReference.cache
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseEmptyTabViewControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseHeaderDetailViewControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseHideOldHistoryViewControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.BerichtProduktViewControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DateiDisableEnfAdd.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DisableSupportEditViewControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DoppelteTelefonNummerControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.EmpfehlungHinzufügen.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ExportAppointmentsControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ExportAppointmentsWeekControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.FalscheNummerControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.GeqaehltKeinKontaktControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.HideCalenderViewControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.KontaktiertControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ListViewTotalAdresse.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.MyTextSearchControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.NeuerTerminWindowControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.NichtKontaktiertKontroler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.SchedulerController.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.StatusNeuControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminBerichtÖffnen.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminWichtigInformationControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminÖffnenControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.Controllers.TestControler.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.Properties.Resources.resources
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.csproj.GenerateResource.Cache
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.dll.licenses
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.dll
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.pdb
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Pdf.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Pdf_32x32.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\addlogo.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGreen.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroPink.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroRed.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGreen16.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGrey.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGrey16.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroPink16.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroRed16.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Spider.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Spider_32x32.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Clock.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Clock_32x32.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBBlue.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBGreen.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBRed.png
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\Recensa.jpg
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\StarOff.gif
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\StarOn.gif
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\StarOver.gif
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.dll
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.pdb
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.xml
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\hr\AdressenManagement.Module.Web.resources.dll
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.dll
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Gurock.SmartInspect.dll
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.pdb
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.xml
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Gurock.SmartInspect.xml
+C:\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\hr\AdressenManagement.Module.Web.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Pdf.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Pdf_32x32.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\addlogo.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\Recensa.jpg
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\StarOff.gif
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\StarOn.gif
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\StarOver.gif
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGreen.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroPink.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroRed.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGreen16.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGrey.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGrey16.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroPink16.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroRed16.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Spider.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Spider_32x32.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Clock.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.Clock_32x32.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBBlue.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBGreen.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBRed.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.pdb
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.Web.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\hr\AdressenManagement.Module.Web.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Common.Logging.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\GithubNugetDistributor.exe
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Octokit.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Spring.Rest.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Spring.Social.Core.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.pdb
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\AdressenManagement.Module.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Spring.Rest.pdb
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Spring.Rest.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Spring.Social.Core.pdb
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\bin\Debug\Spring.Social.Core.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseEmptyTabViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseHeaderDetailViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.AdresseHideOldHistoryViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.BerichtProduktViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DateiDisableEnfAdd.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DisableSupportEditViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.DoppelteTelefonNummerControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.EmpfehlungHinzufügen.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ExportAppointmentsControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ExportAppointmentsWeekControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.FalscheNummerControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.GeqaehltKeinKontaktControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.HideCalenderViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.KontaktiertControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.ListViewTotalAdresse.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.MyTextSearchControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.NeuerTerminWindowControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.NichtKontaktiertKontroler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.SchedulerController.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.StatusNeuControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminBerichtÖffnen.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminWichtigInformationControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.TerminÖffnenControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.Controllers.TestControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.Properties.Resources.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.csproj.GenerateResource.Cache
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.dll.licenses
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\hr\AdressenManagement.Module.Web.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module.Web\CS\obj\Debug\AdressenManagement.Module.Web.pdb

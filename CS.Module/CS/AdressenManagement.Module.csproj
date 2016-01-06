@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F622EA3C-2609-4BB3-B589-6B1F2CFBB035}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AdressenManagement.Module</RootNamespace>
+    <AssemblyName>AdressenManagement.Module</AssemblyName>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AdressenManagement.Module.xml</DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AdressenManagement.Module.xml</DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'EasyTest|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\EasyTest\</OutputPath>
+    <DocumentationFile>AdressenManagement.Module.xml</DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DefineConstants>EASYTEST</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>..\..\packages\Common.Logging.2.0.0\lib\2.0\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="GithubNugetDistributor">
+      <HintPath>..\..\packages\github-nuget-distributor.GithubNugetDistributor.1.0.21\lib\net45\GithubNugetDistributor.exe</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Octokit">
+      <HintPath>..\..\packages\Octokit.0.4.1\lib\net45\Octokit.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Rest">
+      <HintPath>..\..\packages\Spring.Rest.1.1.1\lib\net40-client\Spring.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Social.Core">
+      <HintPath>..\..\packages\Spring.Social.Core.1.0.1\lib\net40-client\Spring.Social.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="DevExpress.DataAccess.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.ExpressApp.AuditTrail.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Chart.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.CloneObject.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Kpi.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.ExpressApp.Notifications.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.PivotGrid.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ReportsV2.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Security.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ViewVariantsModule.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Workflow.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Xpo.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.2.Core">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.Base.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Persistent.BaseImpl.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Workflow.Activities.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v15.2">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Charts.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2.Wizard, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.2.UI, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v15.2.Extensions, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gurock.SmartInspect">
+      <HintPath>C:\Program Files (x86)\Gurock Software\SmartInspect Professional\lib\dotnet\v2.x\Gurock.SmartInspect.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BusinessLogic\Berichte\" />
+    <Folder Include="FunctionalTests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLogic\Basis\AdressArt.cs" />
+    <Compile Include="BusinessLogic\Basis\Adressdaten.cs" />
+    <Compile Include="BusinessLogic\Basis\Adresse.cs" />
+    <Compile Include="BusinessLogic\Basis\AdressQualität.cs" />
+    <Compile Include="BusinessLogic\Basis\AdressTyp.cs" />
+    <Compile Include="BusinessLogic\Basis\ChangeLog.cs" />
+    <Compile Include="BusinessLogic\Basis\CloneManager.cs" />
+    <Compile Include="BusinessLogic\Basis\Datei.cs" />
+    <Compile Include="BusinessLogic\Basis\DateiTyp.cs" />
+    <Compile Include="BusinessLogic\Basis\Empfehlung.cs" />
+    <Compile Include="BusinessLogic\Basis\GekauftesProdukt.cs" />
+    <Compile Include="BusinessLogic\Basis\Historie.cs" />
+    <Compile Include="BusinessLogic\Basis\Notiz.cs" />
+    <Compile Include="BusinessLogic\Basis\TerminAusgang.cs" />
+    <Compile Include="BusinessLogic\Basis\TerminBericht.cs" />
+    <Compile Include="BusinessLogic\Basis\Berufsstatus.cs" />
+    <Compile Include="BusinessLogic\Basis\Branche.cs" />
+    <Compile Include="BusinessLogic\Basis\CustomLog.cs" />
+    <Compile Include="BusinessLogic\Basis\Gesprächspartner.cs" />
+    <Compile Include="BusinessLogic\Basis\Info.cs" />
+    <Compile Include="BusinessLogic\Basis\Land.cs" />
+    <Compile Include="BusinessLogic\Basis\Priorität.cs" />
+    <Compile Include="BusinessLogic\Basis\Produkt.cs" />
+    <Compile Include="BusinessLogic\Basis\ProduktTyp.cs" />
+    <Compile Include="BusinessLogic\Basis\Status.cs" />
+    <Compile Include="BusinessLogic\Basis\Termin.cs" />
+    <Compile Include="BusinessLogic\Basis\TerminArt.cs" />
+    <Compile Include="BusinessLogic\Formal\Anrede.cs" />
+    <Compile Include="BusinessLogic\Intern\Distribution.cs" />
+    <Compile Include="BusinessLogic\Intern\Kunde.cs" />
+    <Compile Include="BusinessLogic\Intern\Mitarbeiter.cs" />
+    <Compile Include="BusinessLogic\Intern\MitarbeiterRolle.cs" />
+    <Compile Include="BusinessLogic\Intern\RecensaStopWatch.cs" />
+    <Compile Include="BusinessLogic\Intern\ZeitstempelObjekt.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\AktionsStatus.Designer.cs">
+      <DependentUpon>AktionsStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\AktionsStatus.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\AktionsStatusT.Designer.cs">
+      <DependentUpon>AktionsStatusT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\AktionsStatusT.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\Anrufprotokoll.Designer.cs">
+      <DependentUpon>Anrufprotokoll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\Anrufprotokoll.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\EmpfehlungsgeberAuftraege.Designer.cs">
+      <DependentUpon>EmpfehlungsgeberAuftraege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\EmpfehlungsgeberAuftraege.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\Erklaerung.Designer.cs">
+      <DependentUpon>Erklaerung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\Erklaerung.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\ErklaerungT.Designer.cs">
+      <DependentUpon>ErklaerungT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\ErklaerungT.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\Fehlerbehandlung.Designer.cs">
+      <DependentUpon>Fehlerbehandlung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\Fehlerbehandlung.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\FehlerProtokoll.Designer.cs">
+      <DependentUpon>FehlerProtokoll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\FehlerProtokoll.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\Grundregeln.Designer.cs">
+      <DependentUpon>Grundregeln.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\Grundregeln.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\HeroldBranche.Designer.cs">
+      <DependentUpon>HeroldBranche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\HeroldBranche.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\ProduktBericht.Designer.cs">
+      <DependentUpon>ProduktBericht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\ProduktBericht.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\SpiderAuftrag.Designer.cs">
+      <DependentUpon>SpiderAuftrag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\SpiderAuftrag.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\SpiderAuftragsArt.Designer.cs">
+      <DependentUpon>SpiderAuftragsArt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\SpiderAuftragsArt.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\SpiderBranche.Designer.cs">
+      <DependentUpon>SpiderBranche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\SpiderBranche.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\SpiderStatus.Designer.cs">
+      <DependentUpon>SpiderStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\SpiderStatus.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\SpiderType.Designer.cs">
+      <DependentUpon>SpiderType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\SpiderType.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\StandardEinstellungen.Designer.cs">
+      <DependentUpon>StandardEinstellungen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\StandardEinstellungen.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\Support.Designer.cs">
+      <DependentUpon>Support.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\Support.cs" />
+    <Compile Include="BusinessLogic\MainModelCode\Titel.Designer.cs">
+      <DependentUpon>Titel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLogic\MainModelCode\Titel.cs" />
+    <Compile Include="BusinessLogic\Spider\FirmenAdresse.cs" />
+    <Compile Include="BusinessLogic\Spider\PersonAdresse.cs" />
+    <Compile Include="BusinessLogic\Spider\Sglobal.cs" />
+    <Compile Include="BusinessLogic\Spider\SpiderJobManager.cs" />
+    <Compile Include="BusinessLogic\Spider\TagManager.cs" />
+    <Compile Include="Controllers\AdresseAendern.Designer.cs">
+      <DependentUpon>AdresseAendern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseAendern.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdresseAendernTerminBericht.Designer.cs">
+      <DependentUpon>AdresseAendernTerminBericht.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseAendernTerminBericht.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdresseHideSaveAndCloseControler.Designer.cs">
+      <DependentUpon>AdresseHideSaveAndCloseControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseHideSaveAndCloseControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdressenErfassenSaveAndCloseControler.Designer.cs">
+      <DependentUpon>AdressenErfassenSaveAndCloseControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdressenErfassenSaveAndCloseControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdresseNestedViewControler.Designer.cs">
+      <DependentUpon>AdresseNestedViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseNestedViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdresseViewCaptionViewController.Designer.cs">
+      <DependentUpon>AdresseViewCaptionViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AdresseViewCaptionViewController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\EditModeControler.Designer.cs">
+      <DependentUpon>EditModeControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\EditModeControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\FilterByProductViewControler.Designer.cs">
+      <DependentUpon>FilterByProductViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FilterByProductViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\FilterByStatusViewControler.Designer.cs">
+      <DependentUpon>FilterByStatusViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FilterByStatusViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\FilterByUserViewControler.Designer.cs">
+      <DependentUpon>FilterByUserViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FilterByUserViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\FindNumbersViewControler.Designer.cs">
+      <DependentUpon>FindNumbersViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FindNumbersViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\FinPlzViewControler.Designer.cs">
+      <DependentUpon>FinPlzViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\FinPlzViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\GekauftesProduktControler.Designer.cs">
+      <DependentUpon>GekauftesProduktControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\GekauftesProduktControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\LoggedInAsControler.Designer.cs">
+      <DependentUpon>LoggedInAsControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\LoggedInAsControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\NeuenTerminErstellenSimpleControler.Designer.cs">
+      <DependentUpon>NeuenTerminErstellenSimpleControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\NeuenTerminErstellenSimpleControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\NewObjectFromNavigationController.Designer.cs">
+      <DependentUpon>NewObjectFromNavigationController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\NewObjectFromNavigationController.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\NotizenControler.Designer.cs">
+      <DependentUpon>NotizenControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\NotizenControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\ProduktBerichtViewControlervb.Designer.cs">
+      <DependentUpon>ProduktBerichtViewControlervb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ProduktBerichtViewControlervb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\ProduktControler.Designer.cs">
+      <DependentUpon>ProduktControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ProduktControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\RemoveViewVariantsControler.Designer.cs">
+      <DependentUpon>RemoveViewVariantsControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\RemoveViewVariantsControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\RoleDisableDeleteAction.Designer.cs">
+      <DependentUpon>RoleDisableDeleteAction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\RoleDisableDeleteAction.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\TerminBerichtDisableThingsViewControler.Designer.cs">
+      <DependentUpon>TerminBerichtDisableThingsViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TerminBerichtDisableThingsViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\TerminBerichtEntf.Designer.cs">
+      <DependentUpon>TerminBerichtEntf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TerminBerichtEntf.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controllers\TerminBerichtViewControler.Designer.cs">
+      <DependentUpon>TerminBerichtViewControler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\TerminBerichtViewControler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EmbeddedReports\XtraReport1MaTagesKalender.Designer.cs">
+      <DependentUpon>XtraReport1MaTagesKalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmbeddedReports\XtraReport1MaTagesKalender.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GlobalBase.cs" />
+    <Compile Include="Herold\Business\Address.cs" />
+    <Compile Include="Herold\Business\Category.cs" />
+    <Compile Include="Herold\Tools\Builder\AddressBuilder.cs" />
+    <Compile Include="Herold\Tools\Builder\CategoryBuilder.cs" />
+    <Compile Include="Herold\Tools\Builder\ContentBuilder.cs" />
+    <Compile Include="Herold\Tools\Helper\PageHelper.cs" />
+    <Compile Include="Manager\Mail\MailManager.cs" />
+    <Compile Include="Module.Designer.cs">
+      <DependentUpon>Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Application.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="DatabaseUpdate\Updater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controllers\AdresseAendern.resx">
+      <DependentUpon>AdresseAendern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\AdresseAendernTerminBericht.resx">
+      <DependentUpon>AdresseAendernTerminBericht.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\AdresseHideSaveAndCloseControler.resx">
+      <DependentUpon>AdresseHideSaveAndCloseControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\AdressenErfassenSaveAndCloseControler.resx">
+      <DependentUpon>AdressenErfassenSaveAndCloseControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\AdresseNestedViewControler.resx">
+      <DependentUpon>AdresseNestedViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\AdresseViewCaptionViewController.resx">
+      <DependentUpon>AdresseViewCaptionViewController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\EditModeControler.resx">
+      <DependentUpon>EditModeControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\FilterByProductViewControler.resx">
+      <DependentUpon>FilterByProductViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\FilterByStatusViewControler.resx">
+      <DependentUpon>FilterByStatusViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\FilterByUserViewControler.resx">
+      <DependentUpon>FilterByUserViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\FindNumbersViewControler.resx">
+      <DependentUpon>FindNumbersViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\FinPlzViewControler.resx">
+      <DependentUpon>FinPlzViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\GekauftesProduktControler.resx">
+      <DependentUpon>GekauftesProduktControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\NeuenTerminErstellenSimpleControler.resx">
+      <DependentUpon>NeuenTerminErstellenSimpleControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\NotizenControler.resx">
+      <DependentUpon>NotizenControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\ProduktBerichtViewControlervb.resx">
+      <DependentUpon>ProduktBerichtViewControlervb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\ProduktControler.resx">
+      <DependentUpon>ProduktControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\RemoveViewVariantsControler.resx">
+      <DependentUpon>RemoveViewVariantsControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\RoleDisableDeleteAction.resx">
+      <DependentUpon>RoleDisableDeleteAction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\TerminBerichtDisableThingsViewControler.resx">
+      <DependentUpon>TerminBerichtDisableThingsViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\TerminBerichtEntf.resx">
+      <DependentUpon>TerminBerichtEntf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\TerminBerichtViewControler.resx">
+      <DependentUpon>TerminBerichtViewControler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbeddedReports\XtraReport1MaTagesKalender.resx">
+      <DependentUpon>XtraReport1MaTagesKalender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Module.resx">
+      <DependentUpon>Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BusinessLogic\MainModel.xpo">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BusinessLogic\MainModel.xpo.diagram">
+      <DependentUpon>MainModel.xpo</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Model.DesignedDiffs.Localization.hr.xafml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="UnusableNodes1.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\addlogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="UnusableNodes2.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes3.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes4.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes5.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes6.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes7.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes8.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes9.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes10.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes11.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes12.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes13.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes14.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes15.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes16.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\Recensa.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="UnusableNodes17.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes18.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes19.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes20.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes21.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes22.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes23.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes24.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes25.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes26.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes27.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes28.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes29.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes30.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes31.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes32.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes33.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes34.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes35.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes36.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes37.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes38.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes39.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes40.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes41.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes42.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes43.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes44.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes45.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes46.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes47.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes48.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes49.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes50.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes51.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes52.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes53.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes54.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes55.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes56.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\StarOff.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\StarOn.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\StarOver.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="UnusableNodes57.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes58.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes59.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes60.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes61.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes62.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes63.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes64.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes65.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes66.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.EuroGreen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.EuroPink.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.EuroRed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.EuroGreen16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.EuroGrey.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.EuroGrey16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.EuroPink16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.EuroRed16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="UnusableNodes67.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes68.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes69.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes70.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes71.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes72.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes73.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes74.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes75.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes76.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.Spider.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="UnusableNodes77.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes78.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes79.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes80.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.Spider_32x32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="UnusableNodes81.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes82.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes83.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.Clock.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.Clock_32x32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="UnusableNodes84.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes85.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes86.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes87.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes88.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes89.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.CBBlue.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.CBGreen.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\AdressenManagement.Module.Images.CBRed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="UnusableNodes90.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes91.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes92.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes93.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes94.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes95.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes96.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes97.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes98.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes99.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes100.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes101.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes102.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes103.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes104.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes105.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes106.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Images\AdressenManagement.Module.Images.Pdf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\AdressenManagement.Module.Images.Pdf_32x32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="UnusableNodes107.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes108.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes109.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes110.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes111.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes112.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes113.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes114.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="UnusableNodes115.xml">
+      <DependentUpon>Model.DesignedDiffs.xafml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Welcome.html" />
+  </ItemGroup>
+  <ItemGroup />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+</Project>

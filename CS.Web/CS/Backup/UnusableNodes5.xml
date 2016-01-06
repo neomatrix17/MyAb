@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Termin_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="Item2" RelativeSize="11.866666666666667" Removed="True">
+            <LayoutGroup Id="Autoc73f8cac-5473-4bf8-a948-e653116cf05f" Caption="Autoc73f8cac-5473-4bf8-a948-e653116cf05f(24)" RelativeSize="50.137362637362635">
+              <LayoutItem Id="Land" RelativeSize="50" />
+              <LayoutItem Id="Postleitzahl" RelativeSize="50" />
+            </LayoutGroup>
+            <LayoutGroup Id="Autod6587c01-cc61-4b3e-9a8a-07d0a97af88c" Caption="Autod6587c01-cc61-4b3e-9a8a-07d0a97af88c(21)" RelativeSize="49.862637362637365">
+              <LayoutItem Id="Ortschaft" RelativeSize="50" />
+              <LayoutItem Id="Strasse" RelativeSize="50" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Event" RelativeSize="32.133333333333333">
+              <LayoutGroup Id="Event_col1" RelativeSize="48.763736263736263">
+                <LayoutItem Id="TerminArt" RelativeSize="15.384615384615385" />
+                <LayoutItem Id="AllDay" RelativeSize="11.538461538461538" />
+                <LayoutItem Id="ReminderTime" RelativeSize="11.538461538461538" />
+              </LayoutGroup>
+              <LayoutGroup Id="Event_col2" RelativeSize="51.236263736263737">
+                <LayoutItem Id="Mitarbeiter" RelativeSize="15.384615384615385" />
+                <LayoutItem Id="Gesprächspartner" RelativeSize="11.538461538461538" />
+                <LayoutItem Id="Gesprächsergebnis" RelativeSize="11.538461538461538" />
+                <LayoutItem Id="KontaktierenAb" RelativeSize="11.538461538461538" />
+                <LayoutItem Id="Gesprächsnotiz" RelativeSize="50" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

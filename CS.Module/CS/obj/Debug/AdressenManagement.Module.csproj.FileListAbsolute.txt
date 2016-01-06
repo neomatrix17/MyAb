@@ -1,0 +1,271 @@
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.csprojResolveAssemblyReference.cache
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.AdresseAendern.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.AdresseAendernTerminBericht.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.AdresseHideSaveAndCloseControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.AdressenErfassenSaveAndCloseControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.AdresseNestedViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.AdresseViewCaptionViewController.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.EditModeControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.FilterByProductViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.FilterByStatusViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.FilterByUserViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.FindNumbersViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.FinPlzViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.GekauftesProduktControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.NeuenTerminErstellenSimpleControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.NotizenControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.ProduktBerichtViewControlervb.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.ProduktControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.RemoveViewVariantsControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.RoleDisableDeleteAction.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtDisableThingsViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtEntf.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtViewControler.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.XtraReport1MaTagesKalender.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.AdressenManagementModule.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.Properties.Resources.resources
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.csproj.GenerateResource.Cache
+E:\AM14.2\AdressenManagement 14.2 -OK\AdressenManagement.Module\CS\obj\Debug\AdressenManagement.Module.dll.licenses
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.csprojResolveAssemblyReference.cache
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseAendern.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseAendernTerminBericht.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseHideSaveAndCloseControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdressenErfassenSaveAndCloseControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseNestedViewControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseViewCaptionViewController.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.EditModeControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.FilterByProductViewControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.FilterByStatusViewControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.FilterByUserViewControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.FindNumbersViewControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.FinPlzViewControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.GekauftesProduktControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.NeuenTerminErstellenSimpleControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.NotizenControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.ProduktBerichtViewControlervb.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.ProduktControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.RemoveViewVariantsControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.RoleDisableDeleteAction.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtDisableThingsViewControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtEntf.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtViewControler.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.XtraReport1MaTagesKalender.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdressenManagementModule.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.Properties.Resources.resources
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.csproj.GenerateResource.Cache
+C:\Users\Armin\Downloads\CS.Module\CS\obj\Debug\AdressenManagement.Module.dll.licenses
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.Pdf.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.Pdf_32x32.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\addlogo.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGreen.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroPink.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroRed.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGreen16.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGrey.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroGrey16.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroPink16.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.EuroRed16.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.Spider.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.Spider_32x32.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.Clock.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.Clock_32x32.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBBlue.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBGreen.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\AdressenManagement.Module.Images.CBRed.png
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\Recensa.jpg
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\StarOff.gif
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\StarOn.gif
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Images\StarOver.gif
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\AdressenManagement.Module.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\AdressenManagement.Module.pdb
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\AdressenManagement.Module.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\hr\AdressenManagement.Module.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Common.Logging.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Charts.v15.2.Core.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Data.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.AuditTrail.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Chart.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.CloneObject.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.ConditionalAppearance.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Notifications.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Objects.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.PivotGrid.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.ReportsV2.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Security.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Validation.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.ViewVariantsModule.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Workflow.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Xpo.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Persistent.Base.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Persistent.BaseImpl.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.PivotGrid.v15.2.Core.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Printing.v15.2.Core.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Sparkline.v15.2.Core.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Utils.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Utils.v15.2.UI.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Workflow.Activities.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Xpo.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraCharts.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraPrinting.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraReports.v15.2.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraReports.v15.2.Extensions.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\GithubNugetDistributor.exe
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Octokit.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Spring.Rest.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Spring.Social.Core.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\System.Web.Http.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\System.Net.Http.Formatting.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Newtonsoft.Json.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Spring.Rest.pdb
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Spring.Rest.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Spring.Social.Core.pdb
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\Spring.Social.Core.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.AuditTrail.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Chart.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.CloneObject.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.ConditionalAppearance.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Notifications.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.PivotGrid.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.ReportsV2.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Security.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Validation.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.ViewVariantsModule.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Workflow.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.Xpo.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.PivotGrid.v15.2.Core.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Printing.v15.2.Core.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Data.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.ExpressApp.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Persistent.Base.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Persistent.BaseImpl.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Utils.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Xpo.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraCharts.v15.2.Wizard.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraCharts.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Sparkline.v15.2.Core.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraPrinting.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.Utils.v15.2.UI.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraReports.v15.2.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\DevExpress.XtraReports.v15.2.Extensions.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\System.Web.Http.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\System.Net.Http.Formatting.xml
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.AuditTrail.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.AuditTrail.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.AuditTrail.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.Chart.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.Chart.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.Chart.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.CloneObject.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.ExpressApp.CloneObject.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.CloneObject.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.CloneObject.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.Objects.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.ExpressApp.Objects.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.Objects.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.Objects.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.PivotGrid.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.PivotGrid.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.PivotGrid.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.ReportsV2.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.ExpressApp.ReportsV2.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.ReportsV2.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.ReportsV2.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.Security.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.ExpressApp.Security.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.Security.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.Security.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.Validation.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.ExpressApp.Validation.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.Validation.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.Validation.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.ViewVariantsModule.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.ExpressApp.ViewVariantsModule.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.ViewVariantsModule.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.ViewVariantsModule.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.Workflow.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.Workflow.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.Workflow.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.PivotGrid.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.PivotGrid.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.PivotGrid.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.PivotGrid.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.Printing.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.Printing.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.Printing.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.Printing.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.Data.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.Data.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.Data.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.Data.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.ExpressApp.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.ExpressApp.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.ExpressApp.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.ExpressApp.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.Utils.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.Utils.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.Utils.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.Utils.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.Xpo.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.Xpo.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.Xpo.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.Xpo.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.XtraCharts.v15.2.Wizard.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.XtraCharts.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.XtraCharts.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.XtraCharts.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.XtraCharts.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.XtraPrinting.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.XtraPrinting.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.Utils.v15.2.UI.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.Utils.v15.2.UI.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.Utils.v15.2.UI.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.Utils.v15.2.UI.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.XtraReports.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.XtraReports.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.XtraReports.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.XtraReports.v15.2.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\de\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\es\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ja\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\bin\Debug\ru\DevExpress.XtraReports.v15.2.Extensions.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseAendern.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseAendernTerminBericht.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseHideSaveAndCloseControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdressenErfassenSaveAndCloseControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseNestedViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdresseViewCaptionViewController.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.EditModeControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.FilterByProductViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.FilterByStatusViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.FilterByUserViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.FindNumbersViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.FinPlzViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.GekauftesProduktControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.NeuenTerminErstellenSimpleControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.NotizenControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.ProduktBerichtViewControlervb.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.ProduktControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.RemoveViewVariantsControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.RoleDisableDeleteAction.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtDisableThingsViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtEntf.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.TerminBerichtViewControler.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.XtraReport1MaTagesKalender.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.AdressenManagementModule.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.Properties.Resources.resources
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.csproj.GenerateResource.Cache
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.dll.licenses
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\hr\AdressenManagement.Module.resources.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.dll
+E:\My Data\LatestTrash\Users\Armin\Documents\Visual Studio 2013\CloudProjects\AdressenManagement\CS.Module\CS\obj\Debug\AdressenManagement.Module.pdb

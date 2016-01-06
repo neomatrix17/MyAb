@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel Id="BOModel">
+    <Class Name="AdressenManagement.Module.BusinessLogic.Basis.Adresse">
+      <OwnMembers Id="OwnMembers">
+        <Member Name="ZuGoogleMaps" PropertyEditorType="AdressenManagement.Module.Web.HyperLinkPropertyEditor" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+</Application>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="RootGroup">
+            <LayoutGroup Id="EditorsGroup">
+              <LayoutGroup Id="Editors">
+                <LayoutItem Id="@562b7780-a425-4de2-9665-040e239117ea" ViewItem="@562b7780-a425-4de2-9665-040e239117ea" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

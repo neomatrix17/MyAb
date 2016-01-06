@@ -1,0 +1,841 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="MainLogo">
+  <ActionDesign>
+    <Actions>
+      <Action Id="ChangePasswordByUser" Caption="Mein Passwort ändern" />
+      <Action Id="ChooseTheme" Caption="Theme auswählen" />
+      <Action Id="Download" Caption="Herunterladen" />
+      <Action Id="Edit" Caption="Editieren" />
+      <Action Id="EditSeries" Caption="Serie editieren" />
+      <Action Id="Export" Caption="Exportieren" ShortCaption="Exportieren" ToolTip="Exportieren" />
+      <Action Id="FullTextSearch" NullValuePrompt="Nach Text suchen..." ToolTip="Fitrieren Sie Ergebnisse nach belibigem Text" ShortCaption="Suchen" />
+      <Action Id="MyDetails" Caption="Mein Benutzer Profil" />
+      <Action Id="QuickCreateAction" Caption="Schnell erstellen" />
+      <Action Id="ReportWizard_Close" Caption="Schliessen" />
+      <Action Id="ReportWizard_Create" Caption="Erstellen" />
+      <Action Id="ResetPassword" Caption="Passwort zurücksetzen" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="AdressenManagement.Module.BusinessLogic.Basis.Adresse" ObjectCaptionFormat="{0:AnzeigeName} Status:  {0:Status.Name}">
+      <OwnMembers>
+        <Member Name="Besitzer" LookupEditorMode="AllItems" />
+      </OwnMembers>
+    </Class>
+    <Class Name="AdressenManagement.Module.BusinessLogic.Basis.Info" Caption="Bestellstatus" />
+    <Class Name="AdressenManagement.Module.BusinessLogic.Basis.Termin">
+      <AppearanceRules>
+        <AppearanceRule Id="@5737f74e-b0cd-48c2-b379-8c70d6f10474" Visibility="Hide" AppearanceItemType="LayoutItem" TargetItems="@4fa99ed5-91c8-4109-b168-0073fcfa9419" Criteria="[TerminArt.Oid] = 6" IsNewNode="True" />
+      </AppearanceRules>
+      <OwnMembers>
+        <Member Name="Anrede" AllowEdit="True" />
+        <Member Name="Anrede2" AllowEdit="True" />
+        <Member Name="Berufsstatus" AllowEdit="True" />
+        <Member Name="Berufsstatus2" AllowEdit="True" />
+        <Member Name="Berufsstatus3" AllowEdit="True" />
+        <Member Name="Beschreibung" AllowEdit="True" />
+        <Member Name="Beschreibung2" AllowEdit="True" />
+        <Member Name="Beschreibung3" AllowEdit="True" />
+        <Member Name="Branche" AllowEdit="True" />
+        <Member Name="Email" AllowEdit="True" />
+        <Member Name="Email2" AllowEdit="True" />
+        <Member Name="Email3" AllowEdit="True" />
+        <Member Name="GeburtsDatum" AllowEdit="True" />
+        <Member Name="GeburtsDatum2" AllowEdit="True" />
+        <Member Name="GeburtsDatum3" AllowEdit="True" />
+        <Member Name="KontaktierenAb" PropertyEditorType="AdressenManagement.Module.Web.CustomDateTimeEditor" />
+        <Member Name="Land" AllowEdit="True" />
+        <Member Name="Mitarbeiter" LookupEditorMode="AllItems" />
+        <Member Name="Nachname" AllowEdit="True" />
+        <Member Name="Nachname2" AllowEdit="True" />
+        <Member Name="Nachname3" AllowEdit="True" />
+        <Member Name="Ortschaft" AllowEdit="True" />
+        <Member Name="Postleitzahl" AllowEdit="True" />
+        <Member Name="Strasse" AllowEdit="True" />
+        <Member Name="TelefonNummer" PropertyEditorType="AdressenManagement.Module.Web.HyperLinkPropertyEditor" AllowEdit="True" />
+        <Member Name="TelefonNummer2" PropertyEditorType="AdressenManagement.Module.Web.HyperLinkPropertyEditor" AllowEdit="True" />
+        <Member Name="TelefonNummer3" PropertyEditorType="AdressenManagement.Module.Web.HyperLinkPropertyEditor" AllowEdit="True" />
+        <Member Name="Titel" AllowEdit="True" />
+        <Member Name="Titel2" AllowEdit="True" />
+        <Member Name="Titel3" AllowEdit="True" />
+        <Member Name="Vorname" AllowEdit="True" />
+        <Member Name="Vorname2" AllowEdit="True" />
+        <Member Name="Vorname3" AllowEdit="True" />
+        <Member Name="Vorwahl" AllowEdit="True" />
+        <Member Name="Vorwahl2" AllowEdit="True" />
+        <Member Name="Vorwahl3" AllowEdit="True" />
+      </OwnMembers>
+    </Class>
+    <Class Name="AdressenManagement.Module.BusinessLogic.Intern.Distribution" EditorTypeName="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxGridListEditor" />
+    <Class Name="AdressenManagement.Module.MainModel.Anrufprotokoll">
+      <OwnMembers>
+        <Member Name="Datum" EditMaskType="DateTime" EditMask="G" DisplayFormat="{0:G}" />
+        <Member Name="ErbeutKontaktierenAb" Caption="Erneut Kontaktieren Ab" />
+      </OwnMembers>
+    </Class>
+    <Class Name="AdressenManagement.Module.MainModel.Fehlerbehandlung">
+      <OwnMembers>
+        <Member Name="Info" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+      </OwnMembers>
+    </Class>
+    <Class Name="AdressenManagement.Module.MainModel.Grundregeln">
+      <OwnMembers>
+        <Member Name="Info" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+      </OwnMembers>
+    </Class>
+    <Class Name="AdressenManagement.Module.MainModel.Support" Caption="Bedienung">
+      <OwnMembers>
+        <Member Name="Info" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+      </OwnMembers>
+    </Class>
+    <Class Name="DevExpress.Persistent.BaseImpl.Event">
+      <OwnMembers>
+        <Member Name="EndOn" PropertyEditorType="AdressenManagement.Module.Web.CustomDateTimeEditor" />
+        <Member Name="StartOn" PropertyEditorType="AdressenManagement.Module.Web.CustomDateTimeEditor" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@4d88e21d-4fc6-43e0-82cd-2d4a07ad7c2d">
+        <Items>
+          <Item Id="@4713561c-fa16-4aba-a853-328a1a91caac" ChildItemsDisplayStyle="List" />
+        </Items>
+      </Item>
+      <Item Id="@2db9f513-2d5f-462f-a050-c3e3568e2e4d">
+        <Items>
+          <Item Id="@6d51e034-7ef8-4cf2-b3ca-593848a9f6e0" ViewId="Termine_SchedulerView" />
+        </Items>
+      </Item>
+      <Item Id="@79eaa3ea-ab80-40d3-9af0-99d389258eac">
+        <Items>
+          <Item Id="@4fa83c61-816c-4756-960d-29f2142b5c45" Caption="Bestellstatus" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options LookupSmallCollectionItemCount="50" CollectionsEditMode="Edit" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="15.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerAspNetModule" Version="15.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="15.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemAspNetModule" Version="15.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="15.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Validation>
+    <Rules>
+      <RuleRequiredField Id="TerminErstellenMitarbeiterÜberprüfung" TargetCriteria="[Mitarbeiter.Oid] = '@CurrentUserID' And [IsOwner] = False And [Gesprächsergebnis.Oid] = 5" />
+    </Rules>
+  </Validation>
+  <Views>
+    <DetailView Id="Adresse_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="@1a0e5968-0a9c-4225-b282-e38f3ed6a83d" ActionContainer="NochNichtKontaktiertNeu" Caption="Noch Nicht Kontaktiert" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="67.721518987341767">
+            <LayoutGroup Id="Adresse" RelativeSize="100" ShowCaption="False">
+              <LayoutGroup Id="Adresse_col1" RelativeSize="63.540445486518173" Direction="Horizontal">
+                <LayoutGroup Id="Auto1cae3322-84ea-4aad-ad09-ab3d6b8fd2d8" ShowCaption="False" Caption="Auto1cae3322-84ea-4aad-ad09-ab3d6b8fd2d8(5)" Index="0" RelativeSize="50.553505535055351" IsNewNode="True">
+                  <LayoutItem Id="@c9c0126c-684c-4ca9-9a43-a739639fcb43" ViewItem="@c9c0126c-684c-4ca9-9a43-a739639fcb43" SizeConstraintsType="Custom" Index="0" RelativeSize="7.4850299401197606" MaxSize="0, 12" MinSize="50, 25" IsNewNode="True" />
+                  <TabbedGroup Id="Item5" CaptionLocation="Top" Index="1" RelativeSize="92.514970059880241" IsNewNode="True">
+                    <LayoutGroup Id="Item4" ShowCaption="True" Caption="Person 1" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+                      <LayoutGroup Id="Auto01946650-93bf-4c44-a785-3e46b36ee6bb" ShowCaption="False" Caption="Auto01946650-93bf-4c44-a785-3e46b36ee6bb(9)" Direction="Horizontal" Index="0" RelativeSize="18.819188191881917" IsNewNode="True">
+                        <LayoutItem Id="Anrede" ViewItem="Anrede" CaptionLocation="Top" SizeConstraintsType="Default" Index="0" RelativeSize="49.802371541501977" IsNewNode="True" />
+                        <LayoutItem Id="Titel" ViewItem="Titel" CaptionLocation="Top" SizeConstraintsType="Default" Index="1" RelativeSize="50.197628458498023" IsNewNode="True" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto28b699f9-d72d-4475-be0c-3ee5ea9615d3" ShowCaption="False" Caption="Auto28b699f9-d72d-4475-be0c-3ee5ea9615d3(12)" Index="1" RelativeSize="46.863468634686349" IsNewNode="True">
+                        <LayoutItem Id="Vorname" ViewItem="Vorname" SizeConstraintsType="Default" Index="0" RelativeSize="21.259842519685041" IsNewNode="True" />
+                        <LayoutItem Id="Nachname" ViewItem="Nachname" SizeConstraintsType="Default" Index="1" RelativeSize="18.897637795275589" IsNewNode="True" />
+                        <LayoutItem Id="GeburtsDatum" ViewItem="GeburtsDatum" SizeConstraintsType="Default" Index="2" RelativeSize="18.897637795275589" IsNewNode="True" />
+                        <LayoutGroup Id="Auto4a66a82b-4a80-4d65-ace6-90dd03d233bf" ShowCaption="False" Caption="Auto4a66a82b-4a80-4d65-ace6-90dd03d233bf(16)" Direction="Horizontal" Index="3" RelativeSize="40.944881889763778" IsNewNode="True">
+                          <LayoutItem Id="Vorwahl" ViewItem="Vorwahl" CaptionLocation="Top" SizeConstraintsType="Custom" MinSize="150, 36" MaxSize="250, 36" Index="0" RelativeSize="59.288537549407117" IsNewNode="True" />
+                          <LayoutItem Id="TelefonNummer" ShowCaption="True" ViewItem="TelefonNummer" CaptionLocation="Top" SizeConstraintsType="Default" Index="1" RelativeSize="40.711462450592883" IsNewNode="True" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutItem Id="Berufsstatus" ViewItem="Berufsstatus" SizeConstraintsType="Default" Index="2" RelativeSize="8.85608856088561" IsNewNode="True" />
+                      <LayoutItem Id="Email" ViewItem="Email" SizeConstraintsType="Default" Index="3" RelativeSize="8.85608856088561" IsNewNode="True" />
+                      <LayoutItem Id="Beschreibung" ViewItem="Beschreibung" SizeConstraintsType="Custom" MinSize="137, 32" MaxSize="0, 0" Index="4" RelativeSize="16.605166051660518" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item6" ShowCaption="True" Caption="Person 2" CaptionLocation="Top" Index="1" RelativeSize="100" IsNewNode="True">
+                      <LayoutGroup Id="Auto419a72b6-772b-4078-9afa-416411b006d9" ShowCaption="False" Caption="Auto419a72b6-772b-4078-9afa-416411b006d9(23)" Direction="Horizontal" Index="0" RelativeSize="18.819188191881917" IsNewNode="True">
+                        <LayoutItem Id="Anrede2" ViewItem="Anrede2" CaptionLocation="Top" SizeConstraintsType="Default" Index="0" RelativeSize="49.802371541501977" IsNewNode="True" />
+                        <LayoutItem Id="Titel2" ViewItem="Titel2" CaptionLocation="Top" SizeConstraintsType="Default" Index="1" RelativeSize="50.197628458498023" IsNewNode="True" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Auto71854546-1027-41e1-aa52-aff2d64b9014" ShowCaption="False" Caption="Auto71854546-1027-41e1-aa52-aff2d64b9014(26)" Index="1" RelativeSize="46.863468634686349" IsNewNode="True">
+                        <LayoutItem Id="Vorname2" ViewItem="Vorname2" SizeConstraintsType="Default" Index="0" RelativeSize="21.259842519685041" IsNewNode="True" />
+                        <LayoutItem Id="Nachname2" ViewItem="Nachname2" SizeConstraintsType="Default" Index="1" RelativeSize="18.897637795275589" IsNewNode="True" />
+                        <LayoutItem Id="GeburtsDatum2" ViewItem="GeburtsDatum2" SizeConstraintsType="Default" Index="2" RelativeSize="18.897637795275589" IsNewNode="True" />
+                        <LayoutGroup Id="Autocbfe0b79-1ed2-4709-8f76-f310d5036cc6" ShowCaption="False" Caption="Autocbfe0b79-1ed2-4709-8f76-f310d5036cc6(30)" Direction="Horizontal" Index="3" RelativeSize="40.944881889763778" IsNewNode="True">
+                          <LayoutItem Id="Vorwahl2" ViewItem="Vorwahl2" CaptionLocation="Top" SizeConstraintsType="Custom" MinSize="150, 36" MaxSize="250, 36" Index="0" RelativeSize="59.288537549407117" IsNewNode="True" />
+                          <LayoutItem Id="TelefonNummer2" ViewItem="TelefonNummer2" CaptionLocation="Top" SizeConstraintsType="Default" Index="1" RelativeSize="40.711462450592883" IsNewNode="True" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutItem Id="Berufsstatus2" ViewItem="Berufsstatus2" SizeConstraintsType="Default" Index="2" RelativeSize="8.85608856088561" IsNewNode="True" />
+                      <LayoutItem Id="Email2" ViewItem="Email2" SizeConstraintsType="Default" Index="3" RelativeSize="8.85608856088561" IsNewNode="True" />
+                      <LayoutItem Id="Beschreibung2" ViewItem="Beschreibung2" SizeConstraintsType="Default" Index="4" RelativeSize="16.605166051660518" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item2" ShowCaption="True" Caption="Firma" CaptionLocation="Top" Index="2" RelativeSize="100" IsNewNode="True">
+                      <LayoutGroup Id="Auto937bfb5b-e652-4cb7-86fd-43b100602957" ShowCaption="False" Caption="Auto937bfb5b-e652-4cb7-86fd-43b100602957(37)" Direction="Horizontal" Index="0" RelativeSize="18.819188191881917" IsNewNode="True">
+                        <LayoutItem Id="Branche" ViewItem="Branche" CaptionLocation="Top" SizeConstraintsType="Default" Index="0" RelativeSize="49.802371541501977" IsNewNode="True" />
+                        <LayoutItem Id="Titel3" ShowCaption="True" ViewItem="Titel3" CaptionLocation="Top" SizeConstraintsType="Default" Index="1" RelativeSize="50.197628458498023" IsNewNode="True" />
+                      </LayoutGroup>
+                      <LayoutGroup Id="Autob532617d-5364-415f-b6e7-9d78c2634336" ShowCaption="False" Caption="Autob532617d-5364-415f-b6e7-9d78c2634336(40)" Index="1" RelativeSize="55.719557195571959" IsNewNode="True">
+                        <LayoutItem Id="Firma3" ViewItem="Firma3" SizeConstraintsType="Default" Index="0" RelativeSize="17.880794701986755" IsNewNode="True" />
+                        <LayoutItem Id="Vorname3" ViewItem="Vorname3" SizeConstraintsType="Default" Index="1" RelativeSize="15.894039735099337" IsNewNode="True" />
+                        <LayoutItem Id="Nachname3" ViewItem="Nachname3" SizeConstraintsType="Default" Index="2" RelativeSize="15.894039735099337" IsNewNode="True" />
+                        <LayoutItem Id="GeburtsDatum3" ViewItem="GeburtsDatum3" SizeConstraintsType="Default" Index="3" RelativeSize="15.894039735099337" IsNewNode="True" />
+                        <LayoutGroup Id="Auto467bca23-b581-4246-ab6b-71f0f9ce5473" ShowCaption="False" Caption="Auto467bca23-b581-4246-ab6b-71f0f9ce5473(45)" Direction="Horizontal" Index="4" RelativeSize="34.437086092715234" IsNewNode="True">
+                          <LayoutItem Id="Vorwahl3" ViewItem="Vorwahl3" CaptionLocation="Top" SizeConstraintsType="Custom" MinSize="150, 36" MaxSize="250, 36" Index="0" RelativeSize="59.288537549407117" IsNewNode="True" />
+                          <LayoutItem Id="TelefonNummer3" ViewItem="TelefonNummer3" CaptionLocation="Top" SizeConstraintsType="Default" Index="1" RelativeSize="40.711462450592883" IsNewNode="True" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutItem Id="Email3" ViewItem="Email3" SizeConstraintsType="Default" Index="2" RelativeSize="8.85608856088561" IsNewNode="True" />
+                      <LayoutItem Id="Beschreibung3" ViewItem="Beschreibung3" SizeConstraintsType="Default" Index="3" RelativeSize="16.605166051660518" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item3" ShowCaption="True" Caption="Adressdaten" CaptionLocation="Top" Index="3" RelativeSize="100" IsNewNode="True">
+                      <LayoutItem Id="Strasse" ViewItem="Strasse" SizeConstraintsType="Default" Index="0" RelativeSize="11.808118081180812" IsNewNode="True" />
+                      <LayoutItem Id="Postleitzahl" ViewItem="Postleitzahl" SizeConstraintsType="Default" Index="1" RelativeSize="8.85608856088561" IsNewNode="True" />
+                      <LayoutItem Id="Ortschaft" ViewItem="Ortschaft" SizeConstraintsType="Default" Index="2" RelativeSize="8.85608856088561" IsNewNode="True" />
+                      <LayoutItem Id="Land" ViewItem="Land" SizeConstraintsType="Default" Index="3" RelativeSize="8.85608856088561" IsNewNode="True" />
+                      <LayoutItem Id="Anschrift" ShowCaption="False" SizeConstraintsType="Default" Index="4" RelativeSize="61.623616236162363" ViewItem="" IsNewNode="True" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item7" ShowCaption="True" Caption="Gesprächsleitfaden" CaptionLocation="Top" Index="4" RelativeSize="100" IsNewNode="True">
+                      <LayoutItem Id="GesprächsLeitfaden" ShowCaption="False" ViewItem="GesprächsLeitfaden" CaptionLocation="Top" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+                    </LayoutGroup>
+                  </TabbedGroup>
+                </LayoutGroup>
+                <TabbedGroup Id="@c66dae10-35b9-4073-99e1-090faaece3e3" Index="1" RelativeSize="49.446494464944649" IsNewNode="True">
+                  <LayoutGroup Id="Item10" ShowCaption="True" CaptionLocation="Top" Direction="Vertical" Index="0" RelativeSize="100" Caption="Kontakt" IsNewNode="True">
+                    <LayoutItem Id="Kontaktiert" ViewItem="Kontaktiert" SizeConstraintsType="Default" Index="0" RelativeSize="12.363636363636363" MaxSize="0, 0" MinSize="101, 34" IsNewNode="True" />
+                    <LayoutItem Id="FalscheTelefonNummer" ViewItem="FalscheTelefonNummer" SizeConstraintsType="Default" Index="1" RelativeSize="9.454545454545455" MinSize="148, 26" MaxSize="0, 0" IsNewNode="True" />
+                    <LayoutItem Id="@1a0e5968-0a9c-4225-b282-e38f3ed6a83d" ViewItem="@1a0e5968-0a9c-4225-b282-e38f3ed6a83d" SizeConstraintsType="Default" Index="2" RelativeSize="9.454545454545455" IsNewNode="True" />
+                    <LayoutItem Id="GewähltangerufenkeinKontakt" ViewItem="GewähltangerufenkeinKontakt" SizeConstraintsType="Default" MinSize="182, 34" MaxSize="0, 0" Index="3" RelativeSize="9.454545454545455" IsNewNode="True" />
+                    <LayoutItem Id="ImageText" ViewItem="ImageText" SizeConstraintsType="Default" Index="4" RelativeSize="59.272727272727273" IsNewNode="True" />
+                  </LayoutGroup>
+                </TabbedGroup>
+                <LayoutItem Id="@c9c0126c-684c-4ca9-9a43-a739639fcb43" Removed="True" />
+                <TabbedGroup Id="Item5" Removed="True">
+                  <LayoutGroup Id="Item2">
+                    <LayoutGroup Id="Auto54932bd9-e500-4ca9-8a13-15183748060e" RelativeSize="10.736196319018404" />
+                    <LayoutGroup Id="Auto5c0171fd-aab5-4736-bf3b-33ba1bbf7953" RelativeSize="10.122699386503067" />
+                    <LayoutGroup Id="Autoe8c65f1e-9066-4fb1-803c-255ddaf75dc0" RelativeSize="9.2024539877300615" />
+                    <LayoutGroup Id="Autofdc21f72-b903-4de0-bcbd-16b3c5a1e4a7" RelativeSize="11.042944785276074">
+                      <LayoutItem Id="TelefonNummer3" RelativeSize="56.140350877192979" />
+                      <LayoutItem Id="Vorwahl3" RelativeSize="43.859649122807021" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Beschreibung3" RelativeSize="36.809815950920246" />
+                    <LayoutItem Id="Email3" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="GeburtsDatum3" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Nachname3" RelativeSize="7.3619631901840492" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item3">
+                    <LayoutItem Id="Anschrift" RelativeSize="68.098159509202461" />
+                    <LayoutItem Id="Land" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Ortschaft" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Postleitzahl" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Strasse" RelativeSize="9.8159509202453989" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item4">
+                    <LayoutGroup Id="Autoa4ecdeb1-6390-42ff-b963-7d92fac010cd" RelativeSize="11.042944785276074">
+                      <LayoutItem Id="TelefonNummer" RelativeSize="56.140350877192979" />
+                      <LayoutItem Id="Vorwahl" RelativeSize="43.859649122807021" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Autobdffe9fa-aacc-4c7b-ac57-171a77946bf6" RelativeSize="11.656441717791411" />
+                    <LayoutItem Id="Berufsstatus" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Beschreibung" RelativeSize="40.490797546012267" />
+                    <LayoutItem Id="Email" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="GeburtsDatum" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Nachname" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Vorname" RelativeSize="7.3619631901840492" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item6">
+                    <LayoutGroup Id="Auto2f5632ce-48c5-43b9-aec2-73f003c4bc43" RelativeSize="11.042944785276074">
+                      <LayoutItem Id="TelefonNummer2" RelativeSize="56.140350877192979" />
+                      <LayoutItem Id="Vorwahl2" RelativeSize="43.859649122807021" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Auto734a58b7-19e6-48b1-8737-f4e700b8dd60" RelativeSize="11.656441717791411" />
+                    <LayoutItem Id="Berufsstatus2" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Beschreibung2" RelativeSize="40.490797546012267" />
+                    <LayoutItem Id="Email2" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="GeburtsDatum2" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Nachname2" RelativeSize="7.3619631901840492" />
+                    <LayoutItem Id="Vorname2" RelativeSize="7.3619631901840492" />
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Adresse_col2" RelativeSize="36.459554513481827">
+                <LayoutGroup Id="Autoc14eaa11-ab84-4c76-827a-c3c120cd42ca" Direction="Vertical">
+                  <TabbedGroup Id="Item8" RelativeSize="100">
+                    <LayoutGroup Id="Item1" Direction="Vertical">
+                      <LayoutGroup Id="Auto7d61cc1f-6475-4624-bcfd-1bbe6b8960a2" ShowCaption="False" Caption="Auto7d61cc1f-6475-4624-bcfd-1bbe6b8960a2(66)" Index="0" RelativeSize="100" IsNewNode="True">
+                        <LayoutItem Id="ZuGoogleMaps" ShowCaption="False" SizeConstraintsType="Default" Index="0" RelativeSize="3.6363636363636362" ViewItem="" IsNewNode="True" />
+                        <LayoutItem Id="KundenNummer" ViewItem="KundenNummer" SizeConstraintsType="Default" Index="1" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="LetzterKontaktAm" ViewItem="LetzterKontaktAm" SizeConstraintsType="Default" Index="2" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="ErstKontaktierenAb" ViewItem="ErstKontaktierenAb" SizeConstraintsType="Default" Index="3" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="Besitzer" ViewItem="Besitzer" SizeConstraintsType="Default" Index="4" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="AdressArt" ViewItem="AdressArt" SizeConstraintsType="Default" Index="5" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="AdressQualität" ViewItem="AdressQualität" SizeConstraintsType="Default" Index="6" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="Priorität" ViewItem="Priorität" SizeConstraintsType="Default" Index="7" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="Empfehlungsgeber" ViewItem="Empfehlungsgeber" SizeConstraintsType="Default" Index="8" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="AdressTyp" ViewItem="AdressTyp" SizeConstraintsType="Default" Index="9" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="DiePersonistalleinigerEntscheidungsträger" ViewItem="DiePersonistalleinigerEntscheidungsträger" SizeConstraintsType="Default" Index="10" RelativeSize="8.7272727272727266" IsNewNode="True" />
+                        <LayoutItem Id="Item9" ShowCaption="False" SizeConstraintsType="Default" Index="11" RelativeSize="3.6363636363636362" ViewItem="" IsNewNode="True" />
+                        <LayoutGroup Id="Auto45d30362-b4e1-48d1-a526-dd1f5d237488" ShowCaption="False" Caption="Auto45d30362-b4e1-48d1-a526-dd1f5d237488(66)" Direction="Horizontal" Index="12" RelativeSize="5.4545454545454541" IsNewNode="True">
+                          <LayoutGroup Id="Auto7a822c25-b71c-4f0a-97ea-df65f9b251cd" ShowCaption="False" Caption="Auto7a822c25-b71c-4f0a-97ea-df65f9b251cd(67)" Direction="Horizontal" Index="0" RelativeSize="50" IsNewNode="True" />
+                          <LayoutGroup Id="Auto0789877c-0152-4f20-b68d-3658948bb088" ShowCaption="False" Caption="Auto0789877c-0152-4f20-b68d-3658948bb088(70)" Direction="Horizontal" Index="1" RelativeSize="50" IsNewNode="True" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                      <LayoutItem Id="Item9" Index="11" RelativeSize="3.134796238244514" ViewItem="" Removed="True" />
+                      <LayoutGroup Id="Auto45d30362-b4e1-48d1-a526-dd1f5d237488" Index="12" RelativeSize="18.495297805642632" Removed="True">
+                        <LayoutGroup Id="Auto0789877c-0152-4f20-b68d-3658948bb088" RelativeSize="50.689655172413794">
+                          <LayoutItem Id="GewähltangerufenkeinKontakt" RelativeSize="42.3728813559322" />
+                          <LayoutItem Id="Kontaktiert" RelativeSize="57.6271186440678" />
+                        </LayoutGroup>
+                        <LayoutGroup Id="Auto7a822c25-b71c-4f0a-97ea-df65f9b251cd" RelativeSize="49.310344827586206" />
+                      </LayoutGroup>
+                      <LayoutItem Id="AdressArt" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="AdressQualität" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="AdressTyp" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="Besitzer" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="DiePersonistalleinigerEntscheidungsträger" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="Empfehlungsgeber" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="ErstKontaktierenAb" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="KundenNummer" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="LetzterKontaktAm" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="Priorität" RelativeSize="7.523510971786834" Removed="True" />
+                      <LayoutItem Id="ZuGoogleMaps" RelativeSize="3.134796238244514" Removed="True" />
+                    </LayoutGroup>
+                  </TabbedGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutItem Id="ImageText" RelativeSize="8.90207715133531" Index="1" Removed="True" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="32.278481012658226">
+            <LayoutGroup Id="Notizen" Index="1" />
+            <LayoutGroup Id="Anrufprotololle" Index="2" />
+            <LayoutGroup Id="ListeDerEmpfehlungsgeberBeta" Index="3" />
+            <LayoutGroup Id="Termine" Index="4" />
+            <LayoutGroup Id="TerminBerichte" Index="5" />
+            <LayoutGroup Id="Ereignissprotokoll" Index="6" />
+            <LayoutGroup Id="AlteSystemHistorie" Index="7" />
+            <LayoutGroup Id="Datein" Index="8" />
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Adresse_ListeDerEmpfehlungsgeberBeta_ListView">
+      <Columns>
+        <ColumnInfo Id="CurrentStatus" Index="-1" />
+        <ColumnInfo Id="TerminAbgehaltenVon" Index="-1" />
+        <ColumnInfo Id="TerminVereinbartDurch" Caption="Empfohlen Von" Index="-1" />
+        <ColumnInfo Id="NameFirma" Index="2" />
+        <ColumnInfo Id="RealStatus" Index="3" />
+      </Columns>
+    </ListView>
+    <ListView Id="Adresse_ListView" SaveStateInCookies="True" DataAccessMode="Server">
+      <HiddenActions>
+        <ActionLink ActionId="ChangeVariant" IsNewNode="True" />
+      </HiddenActions>
+    </ListView>
+    <ListView Id="Adresse_ListView_Alle">
+      <Columns>
+        <ColumnInfo Id="Status" Caption="Adressstatus" />
+      </Columns>
+    </ListView>
+    <ListView Id="Adresse_ListView_AlleAdressen">
+      <Columns>
+        <ColumnInfo Id="Status" Caption="Adressstatus" />
+      </Columns>
+    </ListView>
+    <ListView Id="Adresse_ListView_AlleAdressen_Gewerbe">
+      <Columns>
+        <ColumnInfo Id="Status" Caption="Adressstatus" />
+      </Columns>
+    </ListView>
+    <ListView Id="Adresse_ListView_AlleAdressen_Privat">
+      <Columns>
+        <ColumnInfo Id="Status" Caption="Adressstatus" />
+      </Columns>
+    </ListView>
+    <ListView Id="Adresse_ListView_Clone" SaveStateInCookies="True" DataAccessMode="Client" TopReturnedObjects="100000">
+      <Columns>
+        <ColumnInfo Id="Status" Caption="Adressstatus" />
+      </Columns>
+      <Variants>
+        <Variant Id="@61556eaf-6d9c-45a8-8ef2-61eea2d069b6" ViewID="Adresse_ListView_Clone_AlleAdressen_Doppelt" Caption="Doppelte Adressen" IsNewNode="True" />
+      </Variants>
+    </ListView>
+    <ListView Id="Adresse_ListView_Clone_AlleAdressen_Doppelt" ClassName="AdressenManagement.Module.BusinessLogic.Basis.Adresse" IsGroupPanelVisible="True" AutoExpandAllGroups="True" Criteria="" TopReturnedObjects="0" AllowNew="False" PreviewColumnName="" GroupSummary="" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="AdressQualität" PropertyName="AdressQualität" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="AdressTyp" PropertyName="AdressTyp" Width="100" Index="-1" View="" Caption="Gesprächsleitfaden" IsNewNode="True" />
+        <ColumnInfo Id="Anrede" PropertyName="Anrede" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Anrede2" PropertyName="Anrede2" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Anrede3" PropertyName="Anrede3" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="AnsprechPartner" PropertyName="AnsprechPartner" Width="65" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="AnsprechPartner2" PropertyName="AnsprechPartner2" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="AnsprechPartner3" PropertyName="AnsprechPartner3" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Berufsstatus" PropertyName="Berufsstatus" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Berufsstatus2" PropertyName="Berufsstatus2" Width="70" Index="-1" View="" Caption="Berufsstatus" IsNewNode="True" />
+        <ColumnInfo Id="Berufsstatus3" PropertyName="Berufsstatus3" Width="70" Index="-1" View="" Caption="Berufsstatus" IsNewNode="True" />
+        <ColumnInfo Id="Beschreibung" PropertyName="Beschreibung" Width="47" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Beschreibung2" PropertyName="Beschreibung2" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Beschreibung3" PropertyName="Beschreibung3" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Besitzer" PropertyName="Besitzer" Width="92" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Email" PropertyName="Email" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Email2" PropertyName="Email2" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Email3" PropertyName="Email3" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="ErstKontaktierenAb" PropertyName="ErstKontaktierenAb" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Firma" PropertyName="Firma" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Firma2" PropertyName="Firma2" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Firma3" PropertyName="Firma3" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="GeburtsDatum" PropertyName="GeburtsDatum" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="GeburtsDatum2" PropertyName="GeburtsDatum2" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="GeburtsDatum3" PropertyName="GeburtsDatum3" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächsergebnis" PropertyName="Gesprächsergebnis" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="GesprächsLeitfaden" PropertyName="GesprächsLeitfaden" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächsnotiz" PropertyName="Gesprächsnotiz" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächspartner" PropertyName="Gesprächspartner" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Land" PropertyName="Land" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Nachname" PropertyName="Nachname" Width="161" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Nachname2" PropertyName="Nachname2" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Nachname3" PropertyName="Nachname3" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="NachnameMitarbeiter" PropertyName="NachnameMitarbeiter" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Oid" PropertyName="Oid" Width="50" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Ortschaft" PropertyName="Ortschaft" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Width="70" Index="-1" View="" Caption="Adressstatus" IsNewNode="True" />
+        <ColumnInfo Id="Strasse" PropertyName="Strasse" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="TelefonNummer" PropertyName="TelefonNummer" Width="70" Index="-1" View="" SortOrder="None" GroupIndex="-1" IsNewNode="True" />
+        <ColumnInfo Id="TelefonNummer2" PropertyName="TelefonNummer2" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="TelefonNummer3" PropertyName="TelefonNummer3" Width="70" Index="-1" View="" SortIndex="0" SortOrder="Ascending" IsNewNode="True" />
+        <ColumnInfo Id="Titel" PropertyName="Titel" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Titel2" PropertyName="Titel2" Width="57" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Titel3" PropertyName="Titel3" Width="51" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Vorname" PropertyName="Vorname" Width="161" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Vorname2" PropertyName="Vorname2" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="Vorname3" PropertyName="Vorname3" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="VornameMitarbeiter" PropertyName="VornameMitarbeiter" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Info" PropertyName="Info" Width="41" Index="0" View="" IsNewNode="True" />
+        <ColumnInfo Id="Priorität" PropertyName="Priorität" Width="58" Index="1" View="" IsNewNode="True" />
+        <ColumnInfo Id="AnzeigeName" PropertyName="AnzeigeName" Width="83" Index="2" View="" Caption="Name / Firma" IsNewNode="True" />
+        <ColumnInfo Id="Branche" PropertyName="Branche" Index="3" IsNewNode="True" />
+        <ColumnInfo Id="Empfehlungsgeber" PropertyName="Empfehlungsgeber" Width="109" Index="4" View="" IsNewNode="True" />
+        <ColumnInfo Id="Postleitzahl" PropertyName="Postleitzahl" Width="74" Index="5" View="" IsNewNode="True" />
+        <ColumnInfo Id="KontaktierenAb" PropertyName="KontaktierenAb" Width="97" Index="6" View="" IsNewNode="True" />
+        <ColumnInfo Id="AdressArt" PropertyName="AdressArt" Width="71" Index="7" View="" IsNewNode="True" />
+        <ColumnInfo Id="ErfasstAm" PropertyName="ErfasstAm" Width="72" Index="8" View="" IsNewNode="True" />
+        <ColumnInfo Id="LetzterKontaktAm" PropertyName="LetzterKontaktAm" Index="9" Width="112" IsNewNode="True" />
+      </Columns>
+      <Variants Current="@078b907d-04e4-4693-a9a2-a90fa8bcb419" IsNewNode="True" />
+    </ListView>
+    <ListView Id="Adresse_ListView_Clone_AlleAdressen_Kunden">
+      <Columns>
+        <ColumnInfo Id="Status" Caption="Adressstatus" />
+      </Columns>
+    </ListView>
+    <ListView Id="Adresse_ListView_Clone_AlleAdressen_Normal">
+      <Columns>
+        <ColumnInfo Id="Status" Caption="Adressstatus" />
+      </Columns>
+    </ListView>
+    <ListView Id="Adresse_ListView_Clone_ZuKontaktieren">
+      <Columns>
+        <ColumnInfo Id="Status" Caption="Adressstatus" />
+      </Columns>
+    </ListView>
+    <ListView Id="Adresse_TerminBerichte_ListView" PreviewColumnName="KundenBeschreibung" />
+    <ListView Id="Adresse_Termine_ListView" SchedulerViewType="Day" Caption="Kaldender" ImageName="BO_Appointment" AllowNew="False" SaveStateInCookies="True" ResourceClass="AdressenManagement.Module.BusinessLogic.Intern.Mitarbeiter" />
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView" Caption="Benutzer Anmeldung" EnableCaptionColon="False">
+      <Items>
+        <StaticText Id="LogonText" Text="Willkommen! Bitte melden Sie sich am System an." />
+        <PropertyEditor Id="Password" Caption="Passwort" />
+        <PropertyEditor Id="UserName" Caption="Benutzername" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="RootGroup" RelativeSize="100">
+            <LayoutGroup Id="ImageGroup" Caption="ImageGroup(3)" RelativeSize="11.066666666666666">
+              <LayoutItem Id="LogonImage" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="EditorsGroup" RelativeSize="88.933333333333337">
+              <LayoutGroup Id="Text" Caption="Text(6)" RelativeSize="4.666666666666667" Direction="Vertical">
+                <LayoutItem Id="LogonText" ViewItem="LogonText" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Editors" RelativeSize="95.333333333333329">
+                <LayoutItem Id="UserName" ViewItem="UserName" SizeConstraintsType="Default" Index="0" RelativeSize="3.7762237762237763" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Password" ViewItem="Password" SizeConstraintsType="Default" Index="1" RelativeSize="3.3566433566433567" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="@562b7780-a425-4de2-9665-040e239117ea" SizeConstraintsType="Default" Index="2" RelativeSize="92.867132867132867" ShowCaption="False" ViewItem="" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Distribution_ListView" ShowSelectionColumn="False" />
+    <DetailView Id="EmpfehlungsgeberAufträge_DetailView">
+      <Items>
+        <StaticText Id="@3e32a65a-99e0-413e-b7b0-cf4694decab2" Text="2. Wenn Sie den richtigen Empfehlungsgeber gefunden haben, klicken Sie direkt auf den Namen!!" IsNewNode="True" />
+        <StaticText Id="@786e0bd0-d051-4a17-a32d-648939699393" Text="1. Schreiben Sie den den Namen vom gesuchten Empfehlungsgeber in das Suchfeld(Name, Adress ID oder Name und PLZ)" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="83.6624775583483">
+            <LayoutItem Id="@786e0bd0-d051-4a17-a32d-648939699393" ViewItem="@786e0bd0-d051-4a17-a32d-648939699393" SizeConstraintsType="Default" Index="0" RelativeSize="6.866952789699571" IsNewNode="True" />
+            <LayoutItem Id="@3e32a65a-99e0-413e-b7b0-cf4694decab2" ViewItem="@3e32a65a-99e0-413e-b7b0-cf4694decab2" SizeConstraintsType="Default" Index="1" RelativeSize="5.1502145922746783" IsNewNode="True" />
+            <LayoutGroup Id="EmpfehlungsgeberAufträge" Caption="Bitte tragen Sie die Telefonnummern immer mit einem Beistrich ',' getrennt ein und betätigen Sie danach den Speichern Knopf. Achtung! Diese Aktion kann je nach Anzahl der Telefonnummern mehrere Minuten dauern. Bitte haben Sie geduld..." RelativeSize="76.824034334763951" Index="2">
+              <LayoutGroup Id="EmpfehlungsgeberAufträge_col1" RelativeSize="50">
+                <LayoutItem Id="Item5" ShowCaption="False" SizeConstraintsType="Default" Index="0" RelativeSize="21.021021021021021" ViewItem="" IsNewNode="True" />
+                <LayoutItem Id="Item1" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="21.321321321321321" ViewItem="" IsNewNode="True" />
+                <LayoutItem Id="Item2" ShowCaption="False" SizeConstraintsType="Default" Index="2" RelativeSize="40.840840840840841" ViewItem="" IsNewNode="True" />
+                <LayoutItem Id="Benutzer" Index="3" RelativeSize="7.2072072072072073" />
+                <LayoutItem Id="Adresse" Index="4" RelativeSize="9.60960960960961" />
+              </LayoutGroup>
+              <LayoutGroup Id="EmpfehlungsgeberAufträge_col2" RelativeSize="50">
+                <LayoutItem Id="Item6" ShowCaption="False" SizeConstraintsType="Default" Index="0" RelativeSize="21.021021021021021" ViewItem="" IsNewNode="True" />
+                <LayoutItem Id="Item4" ShowCaption="False" SizeConstraintsType="Default" Index="1" RelativeSize="21.321321321321321" ViewItem="" IsNewNode="True" />
+                <LayoutItem Id="Item3" ShowCaption="False" SizeConstraintsType="Default" Index="2" RelativeSize="40.840840840840841" ViewItem="" IsNewNode="True" />
+                <LayoutItem Id="AdressArt" RelativeSize="7.2072072072072073" Index="3" />
+                <LayoutItem Id="AdressenGruppieren" RelativeSize="9.60960960960961" Index="4" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Auto8dab0aed-bf1e-4d3c-afa3-918faeded5f1" RelativeSize="11.158798283261803" Index="3">
+              <LayoutItem Id="AdressenID" RelativeSize="42.5" />
+              <LayoutGroup Id="XPObject" RelativeSize="57.5" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="16.337522441651707">
+            <LayoutItem Id="Status" RelativeSize="47.252747252747255" />
+            <LayoutItem Id="SuchFilter" RelativeSize="52.747252747252745" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Grundregeln_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SizeableEditors" RelativeSize="100" Index="0">
+            <LayoutItem Id="Info" SizeConstraintsType="Default" RelativeSize="100" ShowCaption="False" />
+          </LayoutGroup>
+          <LayoutGroup Id="SimpleEditors" RelativeSize="95.2" Direction="Horizontal" Removed="True">
+            <LayoutGroup Id="XPObject" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Mitarbeiter_Adressen_ListView" SaveStateInCookies="False" />
+    <ListView Id="Mitarbeiter_Anrufprotokolle_ListView">
+      <Columns>
+        <ColumnInfo Id="Datum" SortIndex="0" SortOrder="Descending" />
+      </Columns>
+    </ListView>
+    <DetailView Id="Mitarbeiter_DetailView">
+      <Items>
+        <PropertyEditor Id="Termine" View="Termin_Liste" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <TabbedGroup Id="Tabs">
+            <LayoutGroup Id="Termine" Caption="Liste der Termine" ImageName="BO_Appointment" />
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Mitarbeiter_ListView" SaveStateInCookies="False" />
+    <ListView Id="Mitarbeiter_Notizen_ListView">
+      <Columns>
+        <ColumnInfo Id="ErstelltAm" Width="71" />
+        <ColumnInfo Id="Adresse" Width="59" />
+        <ColumnInfo Id="NotizFeld" Index="2" Width="927" Caption="Notiz - Text" />
+      </Columns>
+    </ListView>
+    <ListView Id="Mitarbeiter_Termine_ListView" SchedulerViewType="WorkWeek" AllowNew="False" VisibleResourcesCount="1" ResourceClass="AdressenManagement.Module.BusinessLogic.Intern.Mitarbeiter" />
+    <DetailView Id="Support_DetailView">
+      <Items>
+        <PropertyEditor Id="Info" PropertyEditorType="DevExpress.ExpressApp.HtmlPropertyEditor.Web.ASPxHtmlPropertyEditor" />
+      </Items>
+    </DetailView>
+    <DetailView Id="Termin_DetailView">
+      <Items>
+        <DashboardViewItem Id="@4fa99ed5-91c8-4109-b168-0073fcfa9419" ViewId="Termine_NeueTerminErstellen" IsNewNode="True" />
+        <StaticText Id="@Important" Text="WICHTIG:" IsNewNode="True" />
+        <StaticText Id="@ImportantText" Text="Um einen Termin in den Kalender einzutragen wählen Sie im Adressstatus „Termin vereinbart“, wählen Sie den Gesprächspartner und drucken Sie danach auf „speichern und schliessen“. Bei allen anderen Aktionen wird kein Termin eingetragen!" IsNewNode="True" />
+        <PropertyEditor Id="Anrede" PropertyName="Adresse.Anrede" />
+        <PropertyEditor Id="Anrede2" PropertyName="Adresse.Anrede2" />
+        <PropertyEditor Id="Berufsstatus" PropertyName="Adresse.Berufsstatus" />
+        <PropertyEditor Id="Berufsstatus2" PropertyName="Adresse.Berufsstatus2" />
+        <PropertyEditor Id="Berufsstatus3" PropertyName="Adresse.Berufsstatus3" />
+        <PropertyEditor Id="Beschreibung" PropertyName="Adresse.Beschreibung" />
+        <PropertyEditor Id="Beschreibung2" PropertyName="Adresse.Beschreibung2" />
+        <PropertyEditor Id="Beschreibung3" PropertyName="Adresse.Beschreibung3" />
+        <PropertyEditor Id="Branche" PropertyName="Adresse.Branche" />
+        <PropertyEditor Id="Email" PropertyName="Adresse.Email" />
+        <PropertyEditor Id="Email2" PropertyName="Adresse.Email2" />
+        <PropertyEditor Id="Email3" PropertyName="Adresse.Email3" />
+        <PropertyEditor Id="GeburtsDatum" PropertyName="Adresse.GeburtsDatum" />
+        <PropertyEditor Id="GeburtsDatum2" PropertyName="Adresse.GeburtsDatum2" />
+        <PropertyEditor Id="GeburtsDatum3" PropertyName="Adresse.GeburtsDatum3" />
+        <PropertyEditor Id="Gesprächsergebnis" DataSourceCriteria="[Oid] = 24 Or [Oid] = 25 Or [Oid] = 26 Or [Oid] = 27" />
+        <PropertyEditor Id="Nachname" PropertyName="Adresse.Nachname" />
+        <PropertyEditor Id="Nachname2" PropertyName="Adresse.Nachname2" />
+        <PropertyEditor Id="Nachname3" PropertyName="Adresse.Nachname3" />
+        <PropertyEditor Id="Ortschaft" PropertyName="Adresse.Ortschaft" />
+        <PropertyEditor Id="Postleitzahl" PropertyName="Adresse.Postleitzahl" />
+        <PropertyEditor Id="Strasse" PropertyName="Adresse.Strasse" />
+        <PropertyEditor Id="TelefonNummer" PropertyName="Adresse.TempTelefonNummer" PropertyEditorType="AdressenManagement.Module.Web.HyperLinkPropertyEditor" />
+        <PropertyEditor Id="TelefonNummer2" PropertyName="Adresse.TempTelefonNummer2" PropertyEditorType="AdressenManagement.Module.Web.HyperLinkPropertyEditor" />
+        <PropertyEditor Id="TelefonNummer3" PropertyName="Adresse.TempTelefonNummer3" PropertyEditorType="AdressenManagement.Module.Web.HyperLinkPropertyEditor" />
+        <PropertyEditor Id="Titel" PropertyName="Adresse.Titel" />
+        <PropertyEditor Id="Titel2" PropertyName="Adresse.Titel2" />
+        <PropertyEditor Id="Titel3" PropertyName="Adresse.Titel3" />
+        <PropertyEditor Id="Vorname" PropertyName="Adresse.Vorname" />
+        <PropertyEditor Id="Vorname2" PropertyName="Adresse.Vorname2" />
+        <PropertyEditor Id="Vorname3" PropertyName="Adresse.Vorname3" />
+        <PropertyEditor Id="Vorwahl" PropertyName="Adresse.Vorwahl" />
+        <PropertyEditor Id="Vorwahl2" PropertyName="Adresse.Vorwahl2" />
+        <PropertyEditor Id="Vorwahl3" PropertyName="Adresse.Vorwahl3" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="50.8">
+            <TabbedGroup Id="Item3" RelativeSize="69.816272965879264">
+              <LayoutGroup Id="Event">
+                <LayoutGroup Id="Event_col1" RelativeSize="48.204419889502759">
+                  <LayoutItem Id="TerminArt" RelativeSize="14.159292035398231" SizeConstraintsType="Default" MinSize="255, 32" MaxSize="255, 32" />
+                  <LayoutItem Id="StartOn" RelativeSize="10.619469026548673" />
+                  <LayoutItem Id="EndOn" RelativeSize="10.619469026548673" />
+                  <LayoutItem Id="AllDay" RelativeSize="10.619469026548673" />
+                  <LayoutItem Id="ReminderTime" RelativeSize="10.619469026548673" />
+                  <LayoutItem Id="Item2" ShowCaption="False" SizeConstraintsType="Default" Index="5" RelativeSize="18.584070796460178" ViewItem="" IsNewNode="True" />
+                  <LayoutItem Id="@Important" ViewItem="@Important" SizeConstraintsType="Default" Index="6" RelativeSize="10.619469026548673" IsNewNode="True" />
+                  <LayoutItem Id="@ImportantText" ViewItem="@ImportantText" SizeConstraintsType="Default" Index="7" RelativeSize="14.159292035398231" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutGroup Id="Event_col2" RelativeSize="51.795580110497241">
+                  <LayoutItem Id="Mitarbeiter" RelativeSize="14.159292035398231" Index="0" />
+                  <LayoutItem Id="Gesprächspartner" RelativeSize="10.619469026548673" Index="1" />
+                  <LayoutItem Id="Gesprächsergebnis" RelativeSize="10.619469026548673" Index="2" />
+                  <LayoutItem Id="KontaktierenAb" RelativeSize="10.619469026548673" Index="3" />
+                  <LayoutItem Id="ZuGoogleMaps" ViewItem="ZuGoogleMaps" SizeConstraintsType="Default" Index="4" RelativeSize="10.619469026548673" IsNewNode="True" />
+                  <LayoutItem Id="Gesprächsnotiz" Index="5" RelativeSize="43.362831858407077" />
+                  <LayoutItem Id="@e9cf7ba3-becb-492c-a972-bc00b4cfde83" RelativeSize="15.044247787610619" Removed="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item4" Caption="Person 1">
+                <LayoutGroup Id="Autocf778fa0-e003-40e2-af59-59af023c50ba" RelativeSize="15.486725663716815">
+                  <LayoutItem Id="Anrede" RelativeSize="49.309392265193367" SizeConstraintsType="Default" MinSize="261, 35" MaxSize="261, 35" />
+                  <LayoutItem Id="Titel" RelativeSize="50.690607734806633" SizeConstraintsType="Default" MinSize="269, 35" MaxSize="269, 35" />
+                </LayoutGroup>
+                <LayoutGroup Id="Autod476bc3e-a933-476a-a973-e6ea3b7d5bab" RelativeSize="38.495575221238937">
+                  <LayoutGroup Id="Autoe0150c41-81cd-4d5e-bc42-ac75996ab2e4">
+                    <LayoutItem Id="Berufsstatus" RelativeSize="49.309392265193367" SizeConstraintsType="Default" MinSize="261, 36" MaxSize="261, 36" />
+                    <LayoutItem Id="Email" RelativeSize="50.690607734806633" SizeConstraintsType="Default" MinSize="269, 36" MaxSize="269, 36" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutItem Id="GeburtsDatum" RelativeSize="10.619469026548673" />
+                <LayoutGroup Id="Auto7025574e-aa35-452f-b3a4-d3d666920ff4" RelativeSize="15.929203539823009">
+                  <LayoutItem Id="Vorwahl" RelativeSize="49.309392265193367" SizeConstraintsType="Default" MinSize="261, 36" MaxSize="261, 36" />
+                  <LayoutItem Id="TelefonNummer" RelativeSize="50.690607734806633" SizeConstraintsType="Default" MinSize="269, 36" MaxSize="269, 36" />
+                </LayoutGroup>
+                <LayoutItem Id="Beschreibung" ViewItem="Beschreibung" SizeConstraintsType="Default" Index="4" RelativeSize="19.469026548672566" IsNewNode="True" />
+                <LayoutItem Id="Description" RelativeSize="13.445378151260504" Index="5" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item5" Caption="Person 2">
+                <LayoutGroup Id="Auto31ed5003-0c87-4212-8af1-4e0b367b1537" RelativeSize="15.486725663716815">
+                  <LayoutItem Id="Anrede2" RelativeSize="49.309392265193367" />
+                  <LayoutItem Id="Titel2" RelativeSize="50.690607734806633" />
+                </LayoutGroup>
+                <LayoutGroup Id="Auto00fb7c48-4ad6-4b4d-84a8-1a8da7599a51" RelativeSize="65.044247787610615">
+                  <LayoutGroup Id="Auto6f2d245b-7d5f-4bf5-8a99-c8dc331abecc">
+                    <LayoutItem Id="Berufsstatus2" RelativeSize="49.309392265193367" />
+                    <LayoutItem Id="Email2" RelativeSize="50.690607734806633" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Auto34b553f3-3a10-4d2d-b4d0-12c38cb41973">
+                    <LayoutGroup Id="Auto97d76da2-5375-43ca-a929-24781580de80">
+                      <LayoutItem Id="Vorwahl2" RelativeSize="49.309392265193367" />
+                      <LayoutItem Id="TelefonNummer2" RelativeSize="50.690607734806633" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutItem Id="Beschreibung2" RelativeSize="19.469026548672566" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item6">
+                <LayoutGroup Id="Auto1a675b9f-3540-40bd-96d9-1ada365df611" Caption="Auto1a675b9f-3540-40bd-96d9-1ada365df611(49)" RelativeSize="15.486725663716815">
+                  <LayoutItem Id="Branche" RelativeSize="49.309392265193367" />
+                  <LayoutItem Id="Titel3" RelativeSize="50.690607734806633" />
+                </LayoutGroup>
+                <LayoutGroup Id="Autoe56ac486-586e-4c2b-8226-0ea36672ca59" Caption="Autoe56ac486-586e-4c2b-8226-0ea36672ca59(52)" RelativeSize="59.73451327433628">
+                  <LayoutItem Id="Vorname3" RelativeSize="17.777777777777779" />
+                  <LayoutItem Id="Nachname3" RelativeSize="17.777777777777779" />
+                  <LayoutItem Id="GeburtsDatum3" RelativeSize="17.777777777777779" />
+                  <LayoutGroup Id="Auto8d5498dc-aea6-47ec-8663-9c6053fc722a" Caption="Auto8d5498dc-aea6-47ec-8663-9c6053fc722a(57)" RelativeSize="26.666666666666668">
+                    <LayoutItem Id="Vorwahl3" RelativeSize="49.309392265193367" />
+                    <LayoutItem Id="TelefonNummer3" RelativeSize="50.690607734806633" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutItem Id="Email3" RelativeSize="10.619469026548673" />
+                <LayoutItem Id="Beschreibung3" RelativeSize="14.159292035398231" />
+              </LayoutGroup>
+              <LayoutGroup Id="Item7">
+                <LayoutGroup Id="Auto9f419900-ed9e-41f6-b09b-7dbd3d71ae04" Caption="Auto9f419900-ed9e-41f6-b09b-7dbd3d71ae04(21)" RelativeSize="45.718232044198892">
+                  <LayoutItem Id="Strasse" RelativeSize="14.159292035398231" />
+                  <LayoutItem Id="Ortschaft" RelativeSize="85.840707964601776" />
+                </LayoutGroup>
+                <LayoutGroup Id="Auto1a795a98-c203-4079-ad1b-e9987638fde6" Caption="Auto1a795a98-c203-4079-ad1b-e9987638fde6(24)" RelativeSize="54.281767955801108">
+                  <LayoutItem Id="Postleitzahl" RelativeSize="14.159292035398231" />
+                  <LayoutItem Id="Land" RelativeSize="85.840707964601776" />
+                </LayoutGroup>
+              </LayoutGroup>
+            </TabbedGroup>
+            <LayoutItem Id="Item1" RelativeSize="30.183727034120736" ViewItem="" />
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" Direction="Vertical" RelativeSize="49.2">
+            <LayoutItem Id="@4fa99ed5-91c8-4109-b168-0073fcfa9419" ViewItem="@4fa99ed5-91c8-4109-b168-0073fcfa9419" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Termin_Liste" EditorTypeName="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxGridListEditor" AllowDelete="False" AllowEdit="False" AllowNew="False" Criteria="[Mitarbeiter.UserName] &lt;&gt; ' ' And [Mitarbeiter.IsActive] = True And Not [Gesprächsergebnis.Oid] In ('24', '25', '26')">
+      <Columns>
+        <ColumnInfo Id="Mitarbeiter" Index="-1" />
+        <ColumnInfo Id="Subject" Index="-1" SortIndex="-1" SortOrder="None" />
+        <ColumnInfo Id="Description" Index="0" Caption="Termin Art" />
+        <ColumnInfo Id="VerknüpfteAdresse" Index="1" />
+        <ColumnInfo Id="Postleitzahl" Index="2" />
+        <ColumnInfo Id="StartOn" Index="3" SortIndex="0" SortOrder="Descending" />
+      </Columns>
+    </ListView>
+    <ListView Id="Termin_Liste_Adresse" EditorTypeName="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxGridListEditor" AllowDelete="False" AllowEdit="False" AllowNew="False" Criteria="[Mitarbeiter.UserName] &lt;&gt; ' ' And [Mitarbeiter.IsActive] = True And Not [Gesprächsergebnis.Oid] In ('24', '25', '26')">
+      <Columns>
+        <ColumnInfo Id="Postleitzahl" Index="-1" />
+        <ColumnInfo Id="Status" Index="-1" />
+        <ColumnInfo Id="Subject" Index="-1" />
+        <ColumnInfo Id="ZuGoogleMaps" PropertyName="ZuGoogleMaps" Index="-1" Width="107" IsNewNode="True" />
+        <ColumnInfo Id="StartOn" Index="0" />
+        <ColumnInfo Id="Mitarbeiter" Index="1" />
+        <ColumnInfo Id="VereinbartVon" PropertyName="VereinbartVon" Index="2" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Termin_ListView" VisibleResourcesCount="1" EditorTypeName="DevExpress.ExpressApp.Scheduler.Web.ASPxSchedulerListEditor" AllowNew="False" AllowDelete="True" AllowEdit="True" Criteria="[Mitarbeiter.Oid] = '@CurrentUserID' And [Mitarbeiter.UserName] &lt;&gt; ' ' And [Mitarbeiter.IsActive] = True And Not [Gesprächsergebnis] In ('24', '25', '26')" ResourceClass="AdressenManagement.Module.BusinessLogic.Intern.Mitarbeiter" />
+    <ListView Id="Termin_LookupListView" Criteria="[Mitarbeiter.UserName] &lt;&gt; ' ' And [Mitarbeiter.IsActive] = True And Not [Gesprächsergebnis] In ('24', '25', '26')" ResourceClass="AdressenManagement.Module.BusinessLogic.Intern.Mitarbeiter" />
+    <DetailView Id="TerminBericht_DetailView">
+      <Items>
+        <PropertyEditor Id="ResultatStatus" DataSourceCriteria="[Oid] &lt;&gt; 23 And [Oid] &lt;&gt; 24 And [Oid] &lt;&gt; 25 And [Oid] &lt;&gt; 26 And [Oid] &lt;&gt; 27 And [Oid] &lt;&gt; 28 And [Oid] &lt;&gt; 29" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="41.866666666666667">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="TerminBericht">
+                <LayoutGroup Id="TerminBericht_col1" RelativeSize="41.574585635359114">
+                  <LayoutItem Id="ResultatStatus" CaptionLocation="Top" RelativeSize="17.910447761194028" />
+                  <LayoutItem Id="TerminAusgang" CaptionLocation="Top" RelativeSize="14.925373134328359" />
+                  <LayoutItem Id="VerbrachteZeit" CaptionLocation="Top" RelativeSize="14.925373134328359" />
+                  <LayoutItem Id="NochmalsKontaktieren" RelativeSize="52.238805970149251" CaptionLocation="Top" />
+                </LayoutGroup>
+                <LayoutGroup Id="TerminBericht_col2" RelativeSize="58.425414364640886">
+                  <LayoutItem Id="KundenZufriedenheit" RelativeSize="11.940298507462687" />
+                  <LayoutItem Id="Datei" RelativeSize="14.925373134328359" />
+                  <LayoutItem Id="Item12" RelativeSize="60.447761194029852" ViewItem="" />
+                  <LayoutItem Id="@f522d2ab-2a32-48e0-b3b2-ec3cd86ea76d" RelativeSize="12.686567164179104" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item2">
+                <LayoutGroup Id="Auto20680741-652b-4eee-bb7e-bd450e77724f" RelativeSize="49.447513812154696">
+                  <LayoutItem Id="FinanzierungBank" RelativeSize="17.910447761194028" CaptionLocation="Top" />
+                  <LayoutItem Id="FinanzierungBuB" RelativeSize="14.925373134328359" CaptionLocation="Top" />
+                  <LayoutItem Id="FinanzierungH" RelativeSize="14.925373134328359" CaptionLocation="Top" />
+                  <LayoutItem Id="FinanzierungBar" RelativeSize="14.925373134328359" CaptionLocation="Top" />
+                  <LayoutGroup Id="Auto917f1e0e-35e2-44a6-992a-db381d692d1a" RelativeSize="18.28358208955224">
+                    <LayoutItem Id="AnzahlRatenH" RelativeSize="94.97206703910615" CaptionLocation="Top" />
+                    <LayoutItem Id="Item13" RelativeSize="5.027932960893855" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Auto0914718b-fbf9-46ef-a21f-c5975c8488d7" RelativeSize="19.029850746268657">
+                    <LayoutItem Id="Anzahlung" RelativeSize="94.97206703910615" CaptionLocation="Top" />
+                    <LayoutItem Id="Item14" RelativeSize="5.027932960893855" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Auto39792bdb-32dc-4ea0-8d16-1315208fa21c" RelativeSize="50.552486187845304">
+                  <LayoutItem Id="Item5" RelativeSize="19.776119402985074" />
+                  <LayoutItem Id="Item6" RelativeSize="14.925373134328359" />
+                  <LayoutItem Id="Item7" RelativeSize="14.925373134328359" />
+                  <LayoutItem Id="Item10" RelativeSize="15.298507462686567" />
+                  <LayoutItem Id="Item8" RelativeSize="14.552238805970148" />
+                  <LayoutItem Id="Item9" RelativeSize="20.522388059701491" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item3">
+                <LayoutGroup Id="Autoe6a8e834-223e-4923-adc6-e3c1bad9e017" RelativeSize="46.961325966850829">
+                  <LayoutItem Id="UmsatzNebenProdukte" RelativeSize="17.910447761194028" CaptionLocation="Top" />
+                  <LayoutItem Id="UmsatzHauptProdukte" RelativeSize="14.925373134328359" CaptionLocation="Top" />
+                  <LayoutItem Id="Gesamtumsatz" RelativeSize="67.164179104477611" CaptionLocation="Top" />
+                </LayoutGroup>
+                <LayoutItem Id="Item11" RelativeSize="53.038674033149171" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="4.4" />
+          <TabbedGroup Id="Tabs" RelativeSize="53.733333333333334" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="TerminBericht_ProduktBericht_ListView" ShowSelectionColumn="False" />
+    <ListView Id="Termine_NeueTerminErstellen" ClassName="AdressenManagement.Module.BusinessLogic.Basis.Termin" Criteria="[Mitarbeiter.UserName] &lt;&gt; ' ' And [Mitarbeiter.IsActive] = True And Not [Gesprächsergebnis] In ('24', '25', '26')" AllowDelete="False" AllowEdit="False" AllowNew="False" ResourceClass="AdressenManagement.Module.BusinessLogic.Intern.Mitarbeiter" SaveStateInCookies="False" VisibleResourcesCount="1" SchedulerViewType="Day" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="Adresse" PropertyName="Adresse" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="AllDay" PropertyName="AllDay" Width="50" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Description" PropertyName="Description" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="EndOn" PropertyName="EndOn" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächsnotiz" PropertyName="Gesprächsnotiz" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Label" PropertyName="Label" Width="50" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Location" PropertyName="Location" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Mitarbeiter" PropertyName="Mitarbeiter" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="RecurrenceInfoXml" PropertyName="RecurrenceInfoXml" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="RecurrencePattern" PropertyName="RecurrencePattern" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="ReminderTime" PropertyName="ReminderTime" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="StartOn" PropertyName="StartOn" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Width="50" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Subject" PropertyName="Subject" Width="400" SortIndex="0" SortOrder="Ascending" Index="0" View="" Caption="Subjekt" IsNewNode="True" />
+        <ColumnInfo Id="Strasse" PropertyName="Strasse" Width="70" Index="3" IsNewNode="True" />
+        <ColumnInfo Id="Postleitzahl" PropertyName="Postleitzahl" Width="70" Index="4" IsNewNode="True" />
+        <ColumnInfo Id="Ortschaft" PropertyName="Ortschaft" Width="70" Index="5" IsNewNode="True" />
+        <ColumnInfo Id="Land" PropertyName="Land" Width="70" Index="6" IsNewNode="True" />
+        <ColumnInfo Id="VerknüpfteAdresse" PropertyName="VerknüpfteAdresse" Width="70" Index="7" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächspartner" PropertyName="Gesprächspartner" Width="70" Index="8" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächsergebnis" PropertyName="Gesprächsergebnis" Width="70" Index="9" IsNewNode="True" />
+        <ColumnInfo Id="KontaktierenAb" PropertyName="KontaktierenAb" Width="70" Index="10" IsNewNode="True" />
+        <ColumnInfo Id="TerminArt" PropertyName="TerminArt" Width="70" Index="11" IsNewNode="True" />
+        <ColumnInfo Id="Person" PropertyName="Person" Width="70" Index="13" IsNewNode="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="Termine_SchedulerView" ClassName="AdressenManagement.Module.BusinessLogic.Basis.Termin" Criteria="[Mitarbeiter.UserName] &lt;&gt; ' ' And [Mitarbeiter.IsActive] = True And Not [Gesprächsergebnis] In ('24', '25', '26')" VisibleResourcesCount="1" ResourceClass="AdressenManagement.Module.BusinessLogic.Intern.Mitarbeiter" SaveStateInCookies="False" IsNewNode="True">
+      <Columns IsNewNode="True">
+        <ColumnInfo Id="Adresse" PropertyName="Adresse" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="AllDay" PropertyName="AllDay" Width="50" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Description" PropertyName="Description" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="EndOn" PropertyName="EndOn" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächsnotiz" PropertyName="Gesprächsnotiz" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Label" PropertyName="Label" Width="50" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Location" PropertyName="Location" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Mitarbeiter" PropertyName="Mitarbeiter" Width="70" Index="-1" View="" IsNewNode="True" />
+        <ColumnInfo Id="RecurrenceInfoXml" PropertyName="RecurrenceInfoXml" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="RecurrencePattern" PropertyName="RecurrencePattern" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="ReminderTime" PropertyName="ReminderTime" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="StartOn" PropertyName="StartOn" Width="70" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Status" PropertyName="Status" Width="50" Index="-1" IsNewNode="True" />
+        <ColumnInfo Id="Subject" PropertyName="Subject" Width="400" SortIndex="0" SortOrder="Ascending" Index="0" View="" Caption="Subjekt" IsNewNode="True" />
+        <ColumnInfo Id="Strasse" PropertyName="Strasse" Width="70" Index="3" IsNewNode="True" />
+        <ColumnInfo Id="Postleitzahl" PropertyName="Postleitzahl" Width="70" Index="4" IsNewNode="True" />
+        <ColumnInfo Id="Ortschaft" PropertyName="Ortschaft" Width="70" Index="5" IsNewNode="True" />
+        <ColumnInfo Id="Land" PropertyName="Land" Width="70" Index="6" IsNewNode="True" />
+        <ColumnInfo Id="VerknüpfteAdresse" PropertyName="VerknüpfteAdresse" Width="70" Index="7" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächspartner" PropertyName="Gesprächspartner" Width="70" Index="8" IsNewNode="True" />
+        <ColumnInfo Id="Gesprächsergebnis" PropertyName="Gesprächsergebnis" Width="70" Index="9" IsNewNode="True" />
+        <ColumnInfo Id="KontaktierenAb" PropertyName="KontaktierenAb" Width="70" Index="10" IsNewNode="True" />
+        <ColumnInfo Id="TerminArt" PropertyName="TerminArt" Width="70" Index="11" IsNewNode="True" />
+        <ColumnInfo Id="Person" PropertyName="Person" Width="70" Index="13" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

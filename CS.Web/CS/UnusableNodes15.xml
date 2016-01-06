@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="Adresse_ListView_Clone_AlleAdressen_Doppelt">
+      <Variants Id="Variants" Current="@078b907d-04e4-4693-a9a2-a90fa8bcb419" />
+    </ListView>
+  </Views>
+</Application>

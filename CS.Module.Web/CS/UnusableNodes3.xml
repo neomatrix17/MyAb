@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Adresse_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Adresse">
+              <LayoutGroup Id="Adresse_col2">
+                <LayoutGroup Id="Autoc14eaa11-ab84-4c76-827a-c3c120cd42ca">
+                  <TabbedGroup Id="Item8">
+                    <LayoutGroup Id="Item1">
+                      <LayoutItem Id="KontaktierenAb" RelativeSize="8.6330935251798557" />
+                    </LayoutGroup>
+                  </TabbedGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

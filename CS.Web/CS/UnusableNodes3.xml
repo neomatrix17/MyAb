@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Termin_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="Event">
+              <LayoutGroup Id="Event_col1">
+                <LayoutGroup Id="Auto3a566e1c-ae51-4ec9-8e6b-43b741608372" RelativeSize="18.435754189944134" />
+                <LayoutGroup Id="Autoac0a148a-f47d-47e3-9d8f-e5e80cdf81ca" Caption="Autoac0a148a-f47d-47e3-9d8f-e5e80cdf81ca(9)" RelativeSize="18.435754189944134" />
+                <LayoutGroup Id="Autod9bb2167-5bde-4901-8131-a17bf733c525" RelativeSize="0.55865921787709494" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors">
+            <LayoutItem Id="Description" RelativeSize="7.0680628272251305" />
+            <LayoutItem Id="RecurrenceInfoXml" RelativeSize="92.931937172774866" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

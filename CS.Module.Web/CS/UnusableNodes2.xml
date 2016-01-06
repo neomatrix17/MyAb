@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <DetailView Id="Adresse_DetailView">
+      <Items Id="Items">
+        <PropertyEditor Id="GekaufteProdukte" PropertyEditorType="DevExpress.ExpressApp.Editors.ListPropertyEditor" />
+      </Items>
+    </DetailView>
+    <ListView Id="Adresse_ListView_Clone">
+      <Columns Id="Columns">
+        <ColumnInfo Id="Info">
+          <Summary Id="Summary">
+            <ColumnSummaryItem Id="@bd6d74a7-f493-4eb0-9574-144d58bcf7db" Removed="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

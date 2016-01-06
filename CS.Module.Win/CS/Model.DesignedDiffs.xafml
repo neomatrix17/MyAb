@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <BOModel>
+    <Class Name="AdressenManagement.Module.BusinessLogic.Basis.Adresse">
+      <OwnMembers>
+        <Member Name="KontaktierenAb" PropertyEditorType="AdressenManagement.Module.Win.CustomDateTimeEditor" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="14.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="14.2.3.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="14.2.3.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Adresse_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="44.300144300144304">
+            <LayoutGroup Id="Adresse">
+              <LayoutGroup Id="Adresse_col1" RelativeSize="51.96078431372549">
+                <TabbedGroup Id="Item5">
+                  <LayoutGroup Id="Item4">
+                    <LayoutItem Id="Anrede" RelativeSize="14.545454545454545" />
+                    <LayoutGroup Id="Auto13b88094-f997-4ae8-9c1b-3a3f0b532dcc" RelativeSize="16.363636363636363">
+                      <LayoutItem Id="Firma" RelativeSize="50" />
+                      <LayoutItem Id="AnsprechPartner" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Vorname" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Nachname" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="TelefonNummer" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Berufsstatus" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Email" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Beschreibung" RelativeSize="14.545454545454545" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item6">
+                    <LayoutItem Id="Anrede2" RelativeSize="14.545454545454545" />
+                    <LayoutGroup Id="Autoc4c77fa9-161d-4dc2-a15d-6681e0e5bd67" RelativeSize="16.363636363636363">
+                      <LayoutItem Id="Firma2" RelativeSize="50" />
+                      <LayoutItem Id="AnsprechPartner2" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Vorname2" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Nachname2" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="TelefonNummer2" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Berufsstatus2" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Email2" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Beschreibung2" RelativeSize="14.545454545454545" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item2">
+                    <LayoutItem Id="Anrede3" RelativeSize="14.545454545454545" />
+                    <LayoutGroup Id="Autoe8c65f1e-9066-4fb1-803c-255ddaf75dc0" RelativeSize="16.363636363636363">
+                      <LayoutItem Id="Firma3" RelativeSize="50" />
+                      <LayoutItem Id="AnsprechPartner3" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Vorname3" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Nachname3" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="TelefonNummer3" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Berufsstatus3" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Email3" RelativeSize="10.909090909090908" />
+                    <LayoutItem Id="Beschreibung3" RelativeSize="14.545454545454545" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item7">
+                    <LayoutItem Id="GesprächsLeitfaden" TextAlignMode="AutoSize" />
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Adresse_col2" RelativeSize="48.03921568627451">
+                <LayoutItem Id="Item3" ViewItem="" RelativeSize="34.328358208955223" />
+                <LayoutItem Id="Priorität" RelativeSize="8.9552238805970141" />
+                <LayoutItem Id="Empfehlungsgeber" RelativeSize="8.9552238805970141" Index="2" />
+                <LayoutItem Id="AdressArt" RelativeSize="8.9552238805970141" Index="3" />
+                <LayoutItem Id="AdressTyp" RelativeSize="8.9552238805970141" Index="4" />
+                <LayoutGroup Id="Auto8940a99d-3ceb-4eef-b77f-59bb6406d194" ShowCaption="False" Caption="" Direction="Horizontal" Index="5" RelativeSize="8.9552238805970141" IsNewNode="True">
+                  <LayoutItem Id="Gesprächspartner" ViewItem="Gesprächspartner" SizeConstraintsType="Default" Index="0" RelativeSize="49.271137026239067" IsNewNode="True" />
+                  <LayoutItem Id="Gesprächsergebnis" ViewItem="Gesprächsergebnis" SizeConstraintsType="Default" Index="1" RelativeSize="50.728862973760933" IsNewNode="True" />
+                </LayoutGroup>
+                <LayoutItem Id="Status" RelativeSize="8.9552238805970141" Index="5" Removed="True" />
+                <LayoutItem Id="KontaktierenAb" RelativeSize="8.9552238805970141" Index="6" />
+                <LayoutItem Id="Gesprächsnotiz" ViewItem="Gesprächsnotiz" SizeConstraintsType="Default" Index="7" RelativeSize="11.940298507462687" IsNewNode="True" />
+                <LayoutItem Id="Gesprächspartner" SizeConstraintsType="Default" Index="10" RelativeSize="8.2191780821917817" Removed="True" />
+                <LayoutItem Id="Gesprächsergebnis" SizeConstraintsType="Default" Index="11" RelativeSize="8.2191780821917817" Removed="True" />
+                <LayoutItem Id="Besitzer" RelativeSize="8.9552238805970141" Removed="True" />
+                <LayoutItem Id="ErfasstAm" RelativeSize="8.9552238805970141" Removed="True" />
+                <LayoutItem Id="Item1" ViewItem="" RelativeSize="3.7313432835820897" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="55.699855699855696" Index="1">
+            <LayoutGroup Id="Adressdaten" TextAlignMode="AlignWithChildren">
+              <LayoutItem Id="Adressdaten" TextAlignMode="AutoSize" />
+            </LayoutGroup>
+            <LayoutGroup Id="GekaufteProdukte" TextAlignMode="AlignWithChildren">
+              <LayoutItem Id="GekaufteProdukte" TextAlignMode="AutoSize" />
+            </LayoutGroup>
+            <LayoutGroup Id="Termine" TextAlignMode="AlignWithChildren">
+              <LayoutItem Id="Termine" TextAlignMode="AutoSize" />
+            </LayoutGroup>
+            <LayoutGroup Id="MTermine" TextAlignMode="AlignWithChildren">
+              <LayoutItem Id="MTermine" TextAlignMode="AutoSize" />
+            </LayoutGroup>
+            <LayoutGroup Id="Anrufprotololle" TextAlignMode="AlignWithChildren">
+              <LayoutItem Id="Anrufprotololle" TextAlignMode="AutoSize" />
+            </LayoutGroup>
+            <LayoutGroup Id="Ereignissprotokoll" TextAlignMode="AlignWithChildren">
+              <LayoutItem Id="Ereignissprotokoll" TextAlignMode="AutoSize" />
+            </LayoutGroup>
+          </TabbedGroup>
+          <LayoutGroup Id="SizeableEditors" Direction="Horizontal" RelativeSize="23.665223665223664" Caption="Gesprächsnotiz" Removed="True">
+            <LayoutItem Id="Gesprächsnotiz" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

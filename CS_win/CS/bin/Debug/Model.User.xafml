@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerWindowsFormsModule" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="14.2.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Templates>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.NestedFrameTemplate" IsNewNode="True" />
+    <Template Id="DevExpress.ExpressApp.Win.Templates.PopupForm" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="CriteriaProvider_DetailView" State="Normal" X="676" Y="305" Width="568" Height="430" IsNewNode="True" />
+        <FormState Id="Termin_DetailView" State="Normal" X="350" Y="217" Width="1204" Height="579" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.Ribbon.DetailRibbonFormV2" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Adresse_DetailView" IsNewNode="True" />
+        <FormState Id="Adresse_ListView" IsNewNode="True" />
+        <FormState Id="Adresse_ListView_Clone" IsNewNode="True" />
+        <FormState Id="Adresse_ListView_Clone_AlleAdressen_Normal" IsNewNode="True" />
+        <FormState Id="Distribution_ListView" IsNewNode="True" />
+        <FormState Id="MitarbeiterRolle_DetailView" IsNewNode="True" />
+        <FormState Id="MitarbeiterRolle_ListView" IsNewNode="True" />
+        <FormState Id="ReportDataV2_ListView" IsNewNode="True" />
+        <FormState Id="SecuritySystemObjectPermissionsObject_DetailView" State="Normal" X="52" Y="52" Width="812" Height="604" IsNewNode="True" />
+        <FormState Id="SecuritySystemTypePermissionObject_DetailView" State="Normal" X="249" Y="199" Width="812" Height="604" IsNewNode="True" />
+        <FormState Id="Termin_ListView" IsNewNode="True" />
+      </FormStates>
+    </Template>
+    <Template Id="DevExpress.ExpressApp.Win.Templates.Ribbon.MainRibbonFormV2" DockManagerSettings="77u/PFh0cmFTZXJpYWxpemVyIHZlcnNpb249IjEuMCIgYXBwbGljYXRpb249IkRvY2tNYW5hZ2VyIj4NCiAgPHByb3BlcnR5IG5hbWU9IiNMYXlvdXRWZXJzaW9uIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iQXV0b0hpZGRlblBhbmVsQ2FwdGlvblNob3dNb2RlIj5TaG93Rm9yQWxsUGFuZWxzPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkRvY2tpbmdPcHRpb25zIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICA8cHJvcGVydHkgbmFtZT0iQXV0b0hpZGVQYW5lbFZlcnRpY2FsVGV4dE9yaWVudGF0aW9uIj5EZWZhdWx0PC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iQ3Vyc29yRmxvYXRDYW5jZWxlZCIgaXNudWxsPSJ0cnVlIiAvPg0KICAgIDxwcm9wZXJ0eSBuYW1lPSJIaWRlSW1tZWRpYXRlbHlPbkF1dG9IaWRlIj5mYWxzZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkNsb3NlQWN0aXZlVGFiT25seSI+dHJ1ZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkNsb3NlQWN0aXZlRmxvYXRUYWJPbmx5Ij5mYWxzZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dDYXB0aW9uT25Nb3VzZUhvdmVyIj5mYWxzZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dDYXB0aW9uSW1hZ2UiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iRG9ja1BhbmVsSW5UYWJDb250YWluZXJUYWJSZWdpb24iPkRvY2tJbW1lZGlhdGVseTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkRvY2tQYW5lbEluQ2FwdGlvblJlZ2lvbiI+RGVmYXVsdDwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dNYXhpbWl6ZUJ1dHRvbiI+dHJ1ZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dBdXRvSGlkZUJ1dHRvbiI+dHJ1ZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IlNob3dDbG9zZUJ1dHRvbiI+dHJ1ZTwvcHJvcGVydHk+DQogICAgPHByb3BlcnR5IG5hbWU9IkZsb2F0T25EYmxDbGljayI+dHJ1ZTwvcHJvcGVydHk+DQogIDwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJBY3RpdmVQYW5lbElEIj4tMTwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJYdHJhU2VyaWFsaXphYmxlU2NyZWVuQ29uZmlndXJhdGlvbiIgaXNrZXk9InRydWUiIHZhbHVlPSIxIj4NCiAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTEiPkAxLFg9MEAxLFk9MEA0LFdpZHRoPTE5MjBANCxIZWlnaHQ9MTA4MDwvcHJvcGVydHk+DQogIDwvcHJvcGVydHk+DQogIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0dseXBoU2tpbm5pbmciPmZhbHNlPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IlBhbmVscyIgaXNrZXk9InRydWUiIHZhbHVlPSIxIj4NCiAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTEiIGlzbnVsbD0idHJ1ZSIgaXNrZXk9InRydWUiPg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlRhYlRleHQiIC8+DQogICAgICA8cHJvcGVydHkgbmFtZT0iSGVhZGVyIiAvPg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkZvb3RlciIgLz4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJYdHJhQWN0aXZlQ2hpbGRJRCI+LTE8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IlRhYmJlZCI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkRvY2tlZEFzVGFiYmVkRG9jdW1lbnQiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJUYWJzUG9zaXRpb24iPkJvdHRvbTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iVGFic1Njcm9sbCI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkltYWdlSW5kZXgiPi0xPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJYdHJhWkluZGV4Ij4yPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJWaXNpYmlsaXR5Ij5WaXNpYmxlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0dseXBoU2tpbm5pbmciPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93Q3VzdG9tSGVhZGVyQnV0dG9uc0dseXBoU2tpbm5pbmciPkRlZmF1bHQ8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkhpbnQiIC8+DQogICAgICA8cHJvcGVydHkgbmFtZT0iVGV4dCI+TmF2aWdhdGlvbjwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iT3JpZ2luYWxTaXplIj5AMyxXaWR0aD0yMDBAMyxIZWlnaHQ9MjAwPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJPcHRpb25zIiBpc251bGw9InRydWUiIGlza2V5PSJ0cnVlIj4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93RmxvYXRpbmciPnRydWU8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dEb2NrTGVmdCI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0RvY2tSaWdodCI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0RvY2tUb3AiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkFsbG93RG9ja0JvdHRvbSI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iQWxsb3dEb2NrRmlsbCI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJBbGxvd0RvY2tBc1RhYmJlZERvY3VtZW50Ij50cnVlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlJlc2l6ZURpcmVjdGlvbiI+QWxsPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IlNob3dNYXhpbWl6ZUJ1dHRvbiI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTaG93QXV0b0hpZGVCdXR0b24iPnRydWU8L3Byb3BlcnR5Pg0KICAgICAgICA8cHJvcGVydHkgbmFtZT0iU2hvd0Nsb3NlQnV0dG9uIj50cnVlPC9wcm9wZXJ0eT4NCiAgICAgICAgPHByb3BlcnR5IG5hbWU9IkZsb2F0T25EYmxDbGljayI+dHJ1ZTwvcHJvcGVydHk+DQogICAgICA8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ilh0cmFQYXJlbnRJRCI+LTE8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ilh0cmFTYXZlZFBhcmVudElEIj4tMTwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iWHRyYUF1dG9IaWRlQ29udGFpbmVyRG9jayI+RmxvYXQ8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IklEIj4yNDk3N2UzMC0wZWE2LTQ0YWEtOGZhNC05YWJhZWIxNzhiNWU8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9Ilh0cmFJRCI+MDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iRG9jayI+TGVmdDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iRmxvYXRMb2NhdGlvbiI+QDEsWD0wQDEsWT0wPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJYdHJhQm91bmRzIj5AMSxYPTBAMyxZPTE0N0AzLFdpZHRoPTIwMEAzLEhlaWdodD00Njg8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkZsb2F0VmVydGljYWwiPmZhbHNlPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJDb3VudCI+MDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iU2F2ZWREb2NrIj5MZWZ0PC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTYXZlZEluZGV4Ij4yPC9wcm9wZXJ0eT4NCiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJTYXZlZFRhYmJlZCI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkRvY2tWZXJ0aWNhbCI+RGVmYXVsdDwvcHJvcGVydHk+DQogICAgICA8cHJvcGVydHkgbmFtZT0iU2F2ZWRNZGlEb2N1bWVudCI+ZmFsc2U8L3Byb3BlcnR5Pg0KICAgICAgPHByb3BlcnR5IG5hbWU9IkZsb2F0U2l6ZSI+QDMsV2lkdGg9MTQ2QDMsSGVpZ2h0PTQyODwvcHJvcGVydHk+DQogICAgPC9wcm9wZXJ0eT4NCiAgPC9wcm9wZXJ0eT4NCiAgPHByb3BlcnR5IG5hbWU9IkF1dG9IaWRlQ29udGFpbmVycyIgaXNrZXk9InRydWUiIHZhbHVlPSIwIiAvPg0KICA8cHJvcGVydHkgbmFtZT0iVG9wWkluZGV4Q29udHJvbHMiIGlza2V5PSJ0cnVlIiB2YWx1ZT0iMiI+DQogICAgPHByb3BlcnR5IG5hbWU9Ikl0ZW0xIiB0eXBlPSJTeXN0ZW0uU3RyaW5nIj5EZXZFeHByZXNzLkV4cHJlc3NBcHAuV2luLlRlbXBsYXRlcy5SaWJib24uWGFmUmliYm9uQ29udHJvbFYyPC9wcm9wZXJ0eT4NCiAgICA8cHJvcGVydHkgbmFtZT0iSXRlbTIiIHR5cGU9IlN5c3RlbS5TdHJpbmciPkRldkV4cHJlc3MuWHRyYUJhcnMuUmliYm9uLlJpYmJvblN0YXR1c0JhcjwvcHJvcGVydHk+DQogIDwvcHJvcGVydHk+DQo8L1h0cmFTZXJpYWxpemVyPg==" IsNewNode="True">
+      <FormStates IsNewNode="True">
+        <FormState Id="Default" State="Normal" MaximizedOnScreen="\\.\DISPLAY1" X="772" Y="117" Width="1014" Height="639" IsNewNode="True" />
+      </FormStates>
+    </Template>
+  </Templates>
+  <Views>
+    <ListView Id="Adresse_Termine_ListView" SelectedIntervalStart="2015-03-30" SelectedIntervalEnd="2015-05-04" />
+    <ListView Id="Termin_ListView" TimeScale="00:30:00" SelectedIntervalStart="2015-12-24" SelectedIntervalEnd="2015-12-25" />
+  </Views>
+</Application>

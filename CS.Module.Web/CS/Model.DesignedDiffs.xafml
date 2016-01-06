@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <ActionDesign>
+    <Actions>
+      <Action Id="Activate" ImageName="Action_ShowItemOnDashboard" />
+      <Action Id="Edit" PaintStyle="Image" />
+      <Action Id="FilterByStatus" NullValuePrompt="Status Filtrieren" PaintStyle="Image" />
+      <Action Id="FilterByUser" NullValuePrompt="Benutzer Filtrieren" />
+      <Action Id="Link" Caption="Liste / Auswahl" />
+    </Actions>
+  </ActionDesign>
+  <BOModel>
+    <Class Name="AdressenManagement.Module.BusinessLogic.Basis.Adresse">
+      <OwnMembers>
+        <Member Name="KontaktierenAb" PropertyEditorType="AdressenManagement.Module.Web.CustomDateTimeEditor" />
+      </OwnMembers>
+    </Class>
+    <Class Name="AdressenManagement.Module.BusinessLogic.Basis.Termin" DefaultListViewNewItemRowPosition="Top" ImageName="BO_Scheduler" />
+    <Class Name="AdressenManagement.Module.BusinessLogic.Basis.TerminBericht">
+      <OwnMembers>
+        <Member Name="KundenZufriedenheit" DisplayFormat="" EditMask="" />
+        <Member Name="ResultatStatus" DataSourceCriteria="[Oid] = 1 Or [Oid] = 4 Or [Oid] = 7 Or [Oid] = 9 Or [Oid] = 10 Or [Oid] = 11 Or [Oid] = 12 Or [Oid] = 13 Or [Oid] = 14 Or [Oid] = 15 Or [Oid] = 16 Or [Oid] = 27" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <Localization>
+    <LocalizationGroup Name="Messages">
+      <LocalizationItem Name="ThereAreNoRecordsToDisplay" Value="Keine Daten zum aanzeigen vorhanden." />
+    </LocalizationGroup>
+  </Localization>
+  <Options LookupSmallCollectionItemCount="50" SaveListViewStateInCookies="True" DataAccessMode="Client" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemAspNetModule" Version="14.2.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="14.2.6.0" IsNewNode="True" />
+  </SchemaModules>
+  <Validation>
+    <Rules>
+      <RuleRequiredField Id="@89242774-4c87-4bd7-b6d0-0fa92587f9b1" TargetCriteria="[Gesprächspartner.Oid] Between(2, 4)" />
+      <RuleRequiredField Id="@de5a95dd-d441-4c82-922a-5b3514c36ccc" TargetType="AdressenManagement.Module.BusinessLogic.Basis.Termin" TargetPropertyName="Gesprächsergebnis" TargetContextIDs="Save" CustomMessageTemplate="Bitte geben sie einen gültigen Adressstatus an." TargetCriteria="[Adresse] Is Not Null" IsNewNode="True" />
+      <RuleRequiredField Id="TerminErstellenMitarbeiterÜberprüfung" TargetCriteria="[Mitarbeiter.Oid] = '@CurrentUserID' And [IsOwner] = False" />
+    </Rules>
+  </Validation>
+  <Views>
+    <DetailView Id="Adresse_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="FalscheTelefonNummer" ActionContainer="FalscheNummer" Caption="Falsche Tel. Nummer" IsNewNode="True" />
+        <ActionContainerViewItem Id="GewähltangerufenkeinKontakt" ActionContainer="KeinKontakt" Caption="Gewählt/angerufen-kein Kontakt" IsNewNode="True" />
+        <ActionContainerViewItem Id="Kontaktiert" ActionContainer="Kontaktiert" Caption="Kontaktiert" IsNewNode="True" />
+        <ActionContainerViewItem Id="NochNichtKontaktiert" ActionContainer="NichtKontaktiert" Caption="Noch nicht Kontaktiert" IsNewNode="True" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="81.2720848056537">
+            <LayoutGroup Id="Adresse" RelativeSize="88.260869565217391">
+              <LayoutGroup Id="Adresse_col1" RelativeSize="51.788491446345255">
+                <LayoutItem Id="@c9c0126c-684c-4ca9-9a43-a739639fcb43" RelativeSize="8.5790884718498663" />
+                <TabbedGroup Id="Item5" RelativeSize="91.420911528150128">
+                  <LayoutGroup Id="Item4">
+                    <LayoutGroup Id="Autobdffe9fa-aacc-4c7b-ac57-171a77946bf6" RelativeSize="12.624584717607974">
+                      <LayoutItem Id="Anrede" RelativeSize="50" />
+                      <LayoutItem Id="Titel" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Vorname" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Nachname" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="GeburtsDatum" RelativeSize="7.9734219269102988" />
+                    <LayoutGroup Id="Autoa4ecdeb1-6390-42ff-b963-7d92fac010cd" RelativeSize="11.960132890365449">
+                      <LayoutItem Id="Vorwahl" RelativeSize="50" />
+                      <LayoutItem Id="TelefonNummer" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Berufsstatus" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Email" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Beschreibung" RelativeSize="35.548172757475086" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item6">
+                    <LayoutGroup Id="Auto734a58b7-19e6-48b1-8737-f4e700b8dd60" RelativeSize="12.624584717607974">
+                      <LayoutItem Id="Anrede2" RelativeSize="50" />
+                      <LayoutItem Id="Titel2" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Vorname2" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Nachname2" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="GeburtsDatum2" RelativeSize="7.9734219269102988" />
+                    <LayoutGroup Id="Auto2f5632ce-48c5-43b9-aec2-73f003c4bc43" RelativeSize="11.960132890365449">
+                      <LayoutItem Id="Vorwahl2" RelativeSize="50" />
+                      <LayoutItem Id="TelefonNummer2" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Berufsstatus2" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Email2" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Beschreibung2" RelativeSize="35.548172757475086" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item2">
+                    <LayoutGroup Id="Auto54932bd9-e500-4ca9-8a13-15183748060e" RelativeSize="11.627906976744185">
+                      <LayoutItem Id="Branche" RelativeSize="50" />
+                      <LayoutItem Id="Titel3" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Autoe8c65f1e-9066-4fb1-803c-255ddaf75dc0" RelativeSize="9.9667774086378742" />
+                    <LayoutGroup Id="Auto5c0171fd-aab5-4736-bf3b-33ba1bbf7953" RelativeSize="10.963455149501661" />
+                    <LayoutItem Id="Nachname3" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="GeburtsDatum3" RelativeSize="7.9734219269102988" />
+                    <LayoutGroup Id="Autofdc21f72-b903-4de0-bcbd-16b3c5a1e4a7" RelativeSize="11.960132890365449">
+                      <LayoutItem Id="Vorwahl3" RelativeSize="50" />
+                      <LayoutItem Id="TelefonNummer3" RelativeSize="50" />
+                    </LayoutGroup>
+                    <LayoutItem Id="Email3" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Beschreibung3" RelativeSize="31.561461794019934" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Item3">
+                    <LayoutItem Id="Strasse" RelativeSize="10.631229235880399" />
+                    <LayoutItem Id="Postleitzahl" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Ortschaft" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Land" RelativeSize="7.9734219269102988" />
+                    <LayoutItem Id="Anschrift" RelativeSize="65.4485049833887" ViewItem="" />
+                  </LayoutGroup>
+                </TabbedGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Adresse_col2" RelativeSize="48.211508553654745">
+                <LayoutGroup Id="Autoc14eaa11-ab84-4c76-827a-c3c120cd42ca">
+                  <TabbedGroup Id="Item8" RelativeSize="100">
+                    <LayoutGroup Id="Item1">
+                      <LayoutItem Id="ZuGoogleMaps" RelativeSize="3.0769230769230771" ViewItem="" />
+                      <LayoutItem Id="KundenNummer" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="LetzterKontaktAm" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="ErstKontaktierenAb" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="Besitzer" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="AdressArt" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="AdressQualität" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="Priorität" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="Empfehlungsgeber" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="AdressTyp" RelativeSize="7.384615384615385" />
+                      <LayoutItem Id="DiePersonistalleinigerEntscheidungsträger" Index="10" RelativeSize="9.8461538461538467" />
+                      <LayoutItem Id="Item9" ShowCaption="False" SizeConstraintsType="Default" Index="11" RelativeSize="3.0769230769230771" ViewItem="" IsNewNode="True" />
+                      <LayoutGroup Id="Auto45d30362-b4e1-48d1-a526-dd1f5d237488" ShowCaption="False" Caption="Auto45d30362-b4e1-48d1-a526-dd1f5d237488(66)" Direction="Horizontal" Index="12" RelativeSize="17.53846153846154" IsNewNode="True">
+                        <LayoutGroup Id="Auto7a822c25-b71c-4f0a-97ea-df65f9b251cd" ShowCaption="False" Caption="Auto7a822c25-b71c-4f0a-97ea-df65f9b251cd(67)" Direction="Vertical" Index="0" RelativeSize="49.48096885813149" IsNewNode="True">
+                          <LayoutItem Id="FalscheTelefonNummer" ViewItem="FalscheTelefonNummer" SizeConstraintsType="Default" Index="0" RelativeSize="100" IsNewNode="True" />
+                        </LayoutGroup>
+                        <LayoutGroup Id="Auto0789877c-0152-4f20-b68d-3658948bb088" ShowCaption="False" Caption="Auto0789877c-0152-4f20-b68d-3658948bb088(70)" Index="1" RelativeSize="50.51903114186851" IsNewNode="True">
+                          <LayoutItem Id="GewähltangerufenkeinKontakt" ViewItem="GewähltangerufenkeinKontakt" SizeConstraintsType="Custom" Index="0" RelativeSize="43.859649122807021" MinSize="50, 25" MaxSize="300, 50" IsNewNode="True" />
+                          <LayoutItem Id="Kontaktiert" ViewItem="Kontaktiert" SizeConstraintsType="Default" Index="1" RelativeSize="56.140350877192979" IsNewNode="True" />
+                        </LayoutGroup>
+                      </LayoutGroup>
+                    </LayoutGroup>
+                  </TabbedGroup>
+                </LayoutGroup>
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutItem Id="ImageText" RelativeSize="6.5217391304347823" Index="2" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="18.727915194346291" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Adresse_ListView" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_Alle" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_AlleAdressen" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_AlleAdressen_Gewerbe" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_AlleAdressen_Privat" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_Clone" Criteria="[Besitzer.Oid] &lt;&gt; 43" TopReturnedObjects="100000" />
+    <ListView Id="Adresse_ListView_Clone_AlleAdressen_Kunden" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_Clone_AlleAdressen_Normal" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_Clone_Erfassen" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_Clone_ZuKontaktieren" DataAccessMode="Server" />
+    <ListView Id="Adresse_ListView_Clone2" DataAccessMode="Server" />
+    <ListView Id="Adresse_LookupListView" DataAccessMode="Server" />
+    <DetailView Id="Mitarbeiter_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="27.874015748031496">
+            <LayoutGroup Id="Mitarbeiter" RelativeSize="99.435028248587571">
+              <LayoutGroup Id="Mitarbeiter_col1" RelativeSize="37.701612903225808">
+                <LayoutItem Id="Anrede" RelativeSize="23.357664233576642" />
+                <LayoutItem Id="Vorname" Index="1" RelativeSize="17.518248175182482" />
+                <LayoutItem Id="Nachname" Index="2" RelativeSize="17.518248175182482" />
+                <LayoutItem Id="Abteilung" Index="3" RelativeSize="41.605839416058394" ViewItem="" />
+                <LayoutItem Id="Email" Removed="True" />
+                <LayoutItem Id="TageskalenderAboniert" SizeConstraintsType="Default" RelativeSize="20" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Auto08a45842-2e4e-4b0b-b69c-ac31a9f95649" RelativeSize="62.298387096774192">
+                <LayoutGroup Id="Auto5ab139d6-0fd0-4a87-8238-96c55d914e57" RelativeSize="58.899676375404532">
+                  <LayoutItem Id="UserName" RelativeSize="23.357664233576642" />
+                  <LayoutItem Id="Email" ViewItem="Email" SizeConstraintsType="Default" Index="1" RelativeSize="17.518248175182482" IsNewNode="True" />
+                  <LayoutItem Id="TageskalenderAboniert" ViewItem="TageskalenderAboniert" SizeConstraintsType="Default" Index="2" RelativeSize="17.518248175182482" IsNewNode="True" />
+                  <LayoutItem Id="IsActive" Index="3" RelativeSize="17.518248175182482" />
+                  <LayoutItem Id="ChangePasswordOnFirstLogon" Index="4" RelativeSize="23.357664233576642" />
+                  <LayoutGroup Id="Mitarbeiter_col2" Index="5" RelativeSize="0.72992700729927007" />
+                </LayoutGroup>
+                <LayoutItem Id="Item1" RelativeSize="41.100323624595468" ViewItem="" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" RelativeSize="0.56497175141242939" />
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="72.1259842519685" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Produkt_ListView" AutoExpandAllGroups="True" />
+    <ListView Id="Produkt_LookupListView" AutoExpandAllGroups="True" />
+    <ListView Id="ProduktTyp_LookupListView" AutoExpandAllGroups="True" />
+    <DetailView Id="Termin_DetailView">
+      <Items>
+        <PropertyEditor Id="Firma" PropertyName="Adresse.Firma3" />
+      </Items>
+    </DetailView>
+    <ListView Id="Termin_ListView" InlineEditMode="EditForm" MasterDetailMode="ListViewAndDetailView" />
+    <DetailView Id="TerminBericht_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="@f522d2ab-2a32-48e0-b3b2-ec3cd86ea76d" ActionContainer="TerminDaten" Caption="Adresse Öffnen / Bearbeiten" IsNewNode="True" />
+        <PropertyEditor Id="KundenZufriedenheit" PropertyEditorType="DevExpress.ExpressApp.Web.Editors.ASPx.ASPxIntPropertyEditor" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="37.39279588336192">
+            <TabbedGroup Id="Item1">
+              <LayoutGroup Id="TerminBericht">
+                <LayoutGroup Id="TerminBericht_col1" RelativeSize="36.390977443609025" />
+                <LayoutGroup Id="TerminBericht_col2" RelativeSize="63.609022556390975">
+                  <LayoutItem Id="Datei" RelativeSize="13.953488372093023" ShowCaption="False" />
+                  <LayoutItem Id="Item12" ShowCaption="False" SizeConstraintsType="Default" Index="2" RelativeSize="47.674418604651166" ViewItem="" IsNewNode="True" />
+                  <LayoutItem Id="@f522d2ab-2a32-48e0-b3b2-ec3cd86ea76d" ViewItem="@f522d2ab-2a32-48e0-b3b2-ec3cd86ea76d" SizeConstraintsType="Default" Index="3" RelativeSize="19.767441860465116" ShowCaption="True" IsNewNode="True" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item2">
+                <LayoutGroup Id="Auto20680741-652b-4eee-bb7e-bd450e77724f" RelativeSize="49.924812030075188">
+                  <LayoutGroup Id="Auto917f1e0e-35e2-44a6-992a-db381d692d1a">
+                    <LayoutItem Id="AnzahlRatenH" RelativeSize="95.783132530120483" />
+                    <LayoutItem Id="Item13" RelativeSize="4.2168674698795181" ViewItem="" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Auto0914718b-fbf9-46ef-a21f-c5975c8488d7">
+                    <LayoutItem Id="Anzahlung" RelativeSize="95.783132530120483" />
+                    <LayoutItem Id="Item14" RelativeSize="4.2168674698795181" ViewItem="" />
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Auto39792bdb-32dc-4ea0-8d16-1315208fa21c" RelativeSize="50.075187969924812">
+                  <LayoutItem Id="Item5" ViewItem="" />
+                  <LayoutItem Id="Item6" ViewItem="" />
+                  <LayoutItem Id="Item7" ViewItem="" />
+                  <LayoutItem Id="Item10" ViewItem="" />
+                  <LayoutItem Id="Item8" ViewItem="" />
+                  <LayoutItem Id="Item9" ViewItem="" />
+                </LayoutGroup>
+              </LayoutGroup>
+              <LayoutGroup Id="Item3">
+                <LayoutGroup Id="Autoe6a8e834-223e-4923-adc6-e3c1bad9e017" RelativeSize="47.969924812030072" />
+                <LayoutItem Id="Item11" RelativeSize="52.030075187969928" ViewItem="" />
+              </LayoutGroup>
+            </TabbedGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="4.802744425385935" />
+          <TabbedGroup Id="Tabs" RelativeSize="57.804459691252141">
+            <LayoutGroup Id="ProduktBericht" RelativeSize="100">
+              <LayoutItem Id="ProduktBericht" SizeConstraintsType="Default" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="TerminBericht_ListView">
+      <Columns>
+        <ColumnInfo Id="KundenZufriedenheit" DisplayFormat="" EditMask="" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>
